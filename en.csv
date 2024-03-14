@@ -1263,644 +1263,641 @@ broadcast::phrase.app_name,en,metafox/broadcast,Broadcast,Közvetítés
 broadcast::phrase.broadcast_setting,en,metafox/broadcast,,
 broadcast::phrase.browse_connection,en,metafox/broadcast,,
 broadcast::phrase.browse_driver,en,metafox/broadcast,,
-broadcast::phrase.connections,en,metafox/broadcast,Connections,Connections
-broadcast::phrase.default_connection,en,metafox/broadcast,Default Connection,Default Connection
-broadcast::phrase.default_connection_desc,en,metafox/broadcast,Use connection to broadcast event,Use connection to broadcast event
-broadcast::phrase.driver,en,metafox/broadcast,Driver,Driver
+broadcast::phrase.connections,en,metafox/broadcast,Connections,Kapcsolatok
+broadcast::phrase.default_connection,en,metafox/broadcast,Default Connection,Alapértelmezett Kapcsolat
+broadcast::phrase.default_connection_desc,en,metafox/broadcast,Use connection to broadcast event,Kapcsolat használata esemény közvetítésére
+broadcast::phrase.driver,en,metafox/broadcast,Driver,Vezető
 broadcast::phrase.pusher_setting,en,metafox/broadcast,,
-broadcast::pusher.app_id_label,en,metafox/broadcast,Pusher App ID,Pusher App ID
-broadcast::pusher.cluster_label,en,metafox/broadcast,Pusher Cluster,Pusher Cluster
+broadcast::pusher.app_id_label,en,metafox/broadcast,Pusher App ID,Pusher Alkalmazásazonosító
+broadcast::pusher.cluster_label,en,metafox/broadcast,Pusher Cluster,Pusher Köteg
 broadcast::pusher.host_label,en,metafox/broadcast,Pusher Host,Pusher Host
-broadcast::pusher.key_label,en,metafox/broadcast,Pusher Key,Pusher Key
+broadcast::pusher.key_label,en,metafox/broadcast,Pusher Key,Pusher Kulcs
 broadcast::pusher.secret_label,en,metafox/broadcast,Pusher Secret,Pusher Secret
 broadcast::pushser.pusher,en,metafox/broadcast,Pusher,Pusher
 cache::dynamodb.endpoint_desc,en,metafox/cache,,
-cache::dynamodb.endpoint_label,en,metafox/cache,DynamoDB Endpoint,DynamoDB Endpoint
+cache::dynamodb.endpoint_label,en,metafox/cache,DynamoDB Endpoint,DynamoDB Végpont
 cache::dynamodb.key_desc,en,metafox/cache,,
-cache::dynamodb.key_label,en,metafox/cache,DynamoDB Key,DynamoDB Key
+cache::dynamodb.key_label,en,metafox/cache,DynamoDB Key,DynamoDB Kulcs
 cache::dynamodb.region_desc,en,metafox/cache,,
-cache::dynamodb.region_label,en,metafox/cache,DynamoBD Region,DynamoBD Region
+cache::dynamodb.region_label,en,metafox/cache,DynamoBD Region,DynamoBD Régió
 cache::dynamodb.secret_desc,en,metafox/cache,,
 cache::dynamodb.secret_label,en,metafox/cache,DynamoDB Secret,DynamoDB Secret
 cache::dynamodb.table_desc,en,metafox/cache,,
-cache::dynamodb.table_label,en,metafox/cache,Cache Table,Cache Table
+cache::dynamodb.table_label,en,metafox/cache,Cache Table,Gyorsítótár Tábla
 cache::memcached.host_desc,en,metafox/cache,,
 cache::memcached.host_label,en,metafox/cache,Memcached Host,Memcached Host
 cache::memcached.password_desc,en,metafox/cache,,
-cache::memcached.password_label,en,metafox/cache,Memcached Password,Memcached Password
+cache::memcached.password_label,en,metafox/cache,Memcached Password,Memcached Jelszó
 cache::memcached.persistent_id_desc,en,metafox/cache,,
-cache::memcached.persistent_id_label,en,metafox/cache,Memcached Persistent ID,Memcached Persistent ID
+cache::memcached.persistent_id_label,en,metafox/cache,Memcached Persistent ID,Memcached Állandó Azonosító
 cache::memcached.port_desc,en,metafox/cache,,
 cache::memcached.port_label,en,metafox/cache,Memcached Port,Memcached Port
 cache::memcached.user_desc,en,metafox/cache,,
-cache::memcached.user_label,en,metafox/cache,Memcached Username,Memcached Username
+cache::memcached.user_label,en,metafox/cache,Memcached Username,Memcached Felhasználónév
 cache::memcached.weight_desc,en,metafox/cache,,
-cache::memcached.weight_label,en,metafox/cache,Memcached Weight,Memcached Weight
-cache::phrase.add_new_cache,en,metafox/cache,Add New Cache,Add New Cache
-cache::phrase.app_name,en,metafox/cache,Cache,Cache
-cache::phrase.cache,en,metafox/cache,Cache,Cache
-cache::phrase.cache_is_cleared_successfully,en,metafox/cache,Cache is cleared successfully.,Cache is cleared successfully.
-cache::phrase.cache_key_prefix_desc,en,metafox/cache,"When utilizing cache stores with the APC, database, memcached, Redis, or DynamoDB, there might be other applications using the same cache. For that reason, you may prefix every cache key to avoid unexpected conflicts.","When utilizing cache stores with the APC, database, memcached, Redis, or DynamoDB, there might be other applications using the same cache. For that reason, you may prefix every cache key to avoid unexpected conflicts."
-cache::phrase.cache_key_prefix_label,en,metafox/cache,Cache Key Prefix,Cache Key Prefix
-cache::phrase.cache_storages,en,metafox/cache,Cache Storages,Cache Storages
-cache::phrase.cache_store_apc_driver_guide,en,metafox/cache,Store cache items to PHP APC cache extension.,Store cache items to PHP APC cache extension.
-cache::phrase.cache_store_array_driver_guide,en,metafox/cache,"Store cache items to PHP array, this cache is affected per browser request.","Store cache items to PHP array, this cache is affected per browser request."
-cache::phrase.cache_store_database_driver_guide,en,metafox/cache,Store cache item to database.,Store cache item to database.
-cache::phrase.cache_store_dynamodb_driver_guide,en,metafox/cache,Store cache items to Amazon DynamoDB database.,Store cache items to Amazon DynamoDB database.
-cache::phrase.cache_store_file_driver_guide,en,metafox/cache,Store cache files to local filesystem.,Store cache files to local filesystem.
-cache::phrase.cache_store_memcached_driver_guide,en,metafox/cache,Store cache to Memcache server.,Store cache to Memcache server.
-cache::phrase.cache_store_octane_driver_guide,en,metafox/cache,Store cache item to Octane cache server.,Store cache item to Octane cache server.
-cache::phrase.cache_store_redis_driver_guide,en,metafox/cache,Store cache item to Redis cache server.,Store cache item to Redis cache server.
-cache::phrase.database_store_desc,en,metafox/cache,Database Cache Store,Database Cache Store
-cache::phrase.database_store_label,en,metafox/cache,Database,Database
-cache::phrase.default_cache_desc,en,metafox/cache,Specify the default cache used when cache connection is not explicitly specified.,Specify the default cache used when cache connection is not explicitly specified.
-cache::phrase.default_cache_label,en,metafox/cache,Default Cache Store,Default Cache Store
-cache::phrase.disable_cache_desc,en,metafox/cache,Disable cache,Disable cache
+cache::memcached.weight_label,en,metafox/cache,Memcached Weight,Memcached súly
+cache::phrase.add_new_cache,en,metafox/cache,Add New Cache,Új Gyorsítótár Hozzáadása
+cache::phrase.app_name,en,metafox/cache,Cache,Gyorsítótár
+cache::phrase.cache,en,metafox/cache,Cache,Gyorsítótár
+cache::phrase.cache_is_cleared_successfully,en,metafox/cache,Cache is cleared successfully.,A gyorsítótár sikeresen törölve.
+cache::phrase.cache_key_prefix_desc,en,metafox/cache,"When utilizing cache stores with the APC, database, memcached, Redis, or DynamoDB, there might be other applications using the same cache. For that reason, you may prefix every cache key to avoid unexpected conflicts.","Amikor APC, adatbázis, memcached, Redis vagy DynamoDB gyorsítótárolókat használ, előfordulhat, hogy más alkalmazások ugyanazt a gyorsítótárat használják. Ennek elkerülése érdekében minden gyorsítótárat előtagolhatsz, hogy váratlan konfliktusokat kerüljön."
+cache::phrase.cache_key_prefix_label,en,metafox/cache,Cache Key Prefix,Gyorsítótár Előtag
+cache::phrase.cache_storages,en,metafox/cache,Cache Storages,Gyorsítótár Tárolók
+cache::phrase.cache_store_apc_driver_guide,en,metafox/cache,Store cache items to PHP APC cache extension.,Tárolja a gyorsítótár elemeket a PHP APC gyorsítótár kiterjesztésébe.
+cache::phrase.cache_store_array_driver_guide,en,metafox/cache,"Store cache items to PHP array, this cache is affected per browser request.","Tárolja a gyorsítótár elemeket a PHP tömbbe, ez a gyorsítótár az egyes böngésző kérésekre vonatkozik."
+cache::phrase.cache_store_database_driver_guide,en,metafox/cache,Store cache item to database.,Tárolja a gyorsítótár elemet az adatbázisba.
+cache::phrase.cache_store_dynamodb_driver_guide,en,metafox/cache,Store cache items to Amazon DynamoDB database.,Tárolja a gyorsítótár elemeket az Amazon DynamoDB adatbázisba.
+cache::phrase.cache_store_file_driver_guide,en,metafox/cache,Store cache files to local filesystem.,Tárolja a gyorsítótár fájlokat a helyi fájlrendszerben.
+cache::phrase.cache_store_memcached_driver_guide,en,metafox/cache,Store cache to Memcache server.,Tárolja a gyorsítótárat a Memcache szerveren.
+cache::phrase.cache_store_octane_driver_guide,en,metafox/cache,Store cache item to Octane cache server.,Tárolja a gyorsítótár elemet az Octane gyorsítótár szerveren.
+cache::phrase.cache_store_redis_driver_guide,en,metafox/cache,Store cache item to Redis cache server.,Tárolja a gyorsítótár elemet a Redis gyorsítótár szerveren.
+cache::phrase.database_store_desc,en,metafox/cache,Database Cache Store,Adatbázis Gyorsítótár Tároló
+cache::phrase.database_store_label,en,metafox/cache,Database,Adatbázis
+cache::phrase.default_cache_desc,en,metafox/cache,Specify the default cache used when cache connection is not explicitly specified.,"Határozza meg az alapértelmezett gyorsítótárat, amelyet akkor használnak, ha a gyorsítótár kapcsolatot nem adják meg egyértelműen."
+cache::phrase.default_cache_label,en,metafox/cache,Default Cache Store,Alapértelmezett Gyorsítótár Tároló
+cache::phrase.disable_cache_desc,en,metafox/cache,Disable cache,Gyorsítótár Letiltása
 cache::phrase.driver,en,metafox/cache,Driver,Driver
-cache::phrase.dynamodb_store_desc,en,metafox/cache,DynamoDB Cache Store,DynamoDB Cache Store
+cache::phrase.dynamodb_store_desc,en,metafox/cache,DynamoDB Cache Store,DynamoDB Gyorsítótár Tároló
 cache::phrase.dynamodb_store_label,en,metafox/cache,DynamoDB,DynamoDB
-cache::phrase.edit_cache_store,en,metafox/cache,Edit Cache Store Configuration,Edit Cache Store Configuration
+cache::phrase.edit_cache_store,en,metafox/cache,Edit Cache Store Configuration,Gyorsítótár Tároló Konfigurációjának Szerkesztése
 cache::phrase.edit_store,en,metafox/cache,,
-cache::phrase.file_path_desc,en,metafox/cache,Folder to save cache files,Folder to save cache files
-cache::phrase.file_path_label,en,metafox/cache,Directory,Directory
-cache::phrase.file_store_desc,en,metafox/cache,File Cache Store,File Cache Store
-cache::phrase.file_store_label,en,metafox/cache,File,File
-cache::phrase.manage_cache,en,metafox/cache,Manage Cache,Manage Cache
-cache::phrase.memcached_store_desc,en,metafox/cache,Memcached Store,Memcached Store
+cache::phrase.file_path_desc,en,metafox/cache,Folder to save cache files,Mappa a gyorsítótár fájlok mentéséhez
+cache::phrase.file_path_label,en,metafox/cache,Directory,Könyvtár
+cache::phrase.file_store_desc,en,metafox/cache,File Cache Store,Fájl Gyorsítótár Tároló
+cache::phrase.file_store_label,en,metafox/cache,File,Fájl
+cache::phrase.manage_cache,en,metafox/cache,Manage Cache,Gyorsítótár Kezelése
+cache::phrase.memcached_store_desc,en,metafox/cache,Memcached Store,Memcached Tároló
 cache::phrase.memcached_store_label,en,metafox/cache,Memcached,Memcached
-cache::phrase.redis_store_desc,en,metafox/cache,Redis Cache Store,Redis Cache Store
+cache::phrase.redis_store_desc,en,metafox/cache,Redis Cache Store,Redis Gyorsítótár Tároló
 cache::phrase.redis_store_label,en,metafox/cache,Redis,Redis
-cache::phrase.select_cache_driver,en,metafox/cache,Select Cache Driver,Select Cache Driver
-cache::phrase.select_cache_driver_desc,en,metafox/cache,Contact developer to get more help.,Contact developer to get more help.
-cache::phrase.settings,en,metafox/cache,Settings,Settings
-cache::phrase.site_settings,en,metafox/cache,Cache Settings,Cache Settings
-cache::phrase.unique_cache_id_desc,en,metafox/cache,ID will be used by developer,ID will be used by developer
+cache::phrase.select_cache_driver,en,metafox/cache,Select Cache Driver,Válassza ki a Gyorsítótár Vezérlőt
+cache::phrase.select_cache_driver_desc,en,metafox/cache,Contact developer to get more help.,Kapcsolatba léphet a fejlesztővel további segítségért.
+cache::phrase.settings,en,metafox/cache,Settings,Beállítások
+cache::phrase.site_settings,en,metafox/cache,Cache Settings,Gyorsítótár Beállítások
+cache::phrase.unique_cache_id_desc,en,metafox/cache,ID will be used by developer,ID-t a fejlesztő fogja használni
 cache::phrase.unique_cache_id_label,en,metafox/cache,ID,ID
 cache::redis.connection_desc,en,metafox/cache,,
-cache::redis.connection_label,en,metafox/cache,Redis Connection,Redis Connection
-cache::redis.database_label,en,metafox/cache,Database Index,Database Index
+cache::redis.connection_label,en,metafox/cache,Redis Connection,Redis Kapcsolat
+cache::redis.database_label,en,metafox/cache,Database Index,Adatbázis Index
 cache::redis.host_label,en,metafox/cache,Redis Host,Redis Host
-cache::redis.password_label,en,metafox/cache,Redis Password,Redis Password
+cache::redis.password_label,en,metafox/cache,Redis Password,Redis Jelszó
 cache::redis.port_label,en,metafox/cache,Redis Port,Redis Port
 cache::redis.url_label,en,metafox/cache,Redis URL,Redis URL
-cache::redis.use_tls,en,metafox/cache,Using TLS,Using TLS
-cache::redis.use_tls_desc,en,metafox/cache,You can use TLS/SSL encryption when connecting to your Redis server by switching this ON.,You can use TLS/SSL encryption when connecting to your Redis server by switching this ON.
+cache::redis.use_tls,en,metafox/cache,Using TLS,TLS használata
+cache::redis.use_tls_desc,en,metafox/cache,You can use TLS/SSL encryption when connecting to your Redis server by switching this ON.,"Használhatja a TLS/SSL titkosítást, amikor a Redis szerverhez csatlakozik, ha ezt bekapcsolja."
 captcha::admin.captcha_type_description,en,metafox/captcha,"Select CAPTCHA type.
-If you choose ReCAPTCHA, visit google.com/recaptcha and get free key.","Select CAPTCHA type.
-If you choose ReCAPTCHA, visit google.com/recaptcha and get free key."
-captcha::admin.captcha_type_label,en,metafox/captcha,CAPTCHA Type,CAPTCHA Type
-captcha::admin.captcha_types,en,metafox/captcha,Types,Types
-captcha::admin.image_captcha,en,metafox/captcha,Image CAPTCHA,Image CAPTCHA
-captcha::admin.image_captcha_description,en,metafox/captcha,"A CAPTCHA test is made up of two simple parts: a randomly generated sequence of letters and/or numbers that appear as a distorted image, and a text box. To pass a the test and prove your human identity, simply type the characters you see in the image into the text box.","A CAPTCHA test is made up of two simple parts: a randomly generated sequence of letters and/or numbers that appear as a distorted image, and a text box. To pass a the test and prove your human identity, simply type the characters you see in the image into the text box."
+If you choose ReCAPTCHA, visit google.com/recaptcha and get free key.","Válassza ki a CAPTCHA típusát. Ha a ReCAPTCHA-t választja, látogasson el a google.com/recaptcha oldalra, és szerezzen ingyenes kulcsot."
+captcha::admin.captcha_type_label,en,metafox/captcha,CAPTCHA Type,CAPTCHA Típus
+captcha::admin.captcha_types,en,metafox/captcha,Types,Típusok
+captcha::admin.image_captcha,en,metafox/captcha,Image CAPTCHA,Képes CAPTCHA
+captcha::admin.image_captcha_description,en,metafox/captcha,"A CAPTCHA test is made up of two simple parts: a randomly generated sequence of letters and/or numbers that appear as a distorted image, and a text box. To pass a the test and prove your human identity, simply type the characters you see in the image into the text box.","A CAPTCHA teszt két egyszerű részből áll: egy véletlenszerűen generált karakterláncból és/vagy számokból, amelyek torzított képként jelennek meg, és egy szövegdobozból. A teszt átadásához és az emberi azonosság igazolásához egyszerűen gépelje be a képen látható karaktereket a szövegdobozba."
 captcha::admin.recaptcha_v3,en,metafox/captcha,ReCAPTCHA V3,ReCAPTCHA V3
-captcha::admin.recaptcha_v3_description,en,metafox/captcha,"ReCAPTCHA v3 helps you detect abusive traffic on your website without user interaction. Instead of showing a CAPTCHA challenge, ReCAPTCHA v3 returns a score so you can choose the most appropriate action for your website.","ReCAPTCHA v3 helps you detect abusive traffic on your website without user interaction. Instead of showing a CAPTCHA challenge, ReCAPTCHA v3 returns a score so you can choose the most appropriate action for your website."
+captcha::admin.recaptcha_v3_description,en,metafox/captcha,"ReCAPTCHA v3 helps you detect abusive traffic on your website without user interaction. Instead of showing a CAPTCHA challenge, ReCAPTCHA v3 returns a score so you can choose the most appropriate action for your website.","A ReCAPTCHA v3 segít az abusive traffic felismerésében weboldalán anélkül, hogy felhasználói interakcióra lenne szükség. A CAPTCHA kihívás helyett a ReCAPTCHA v3 pontszámot ad vissza, így kiválaszthatja a legmegfelelőbb intézkedést weboldalához."
 captcha::phrase.app_name,en,metafox/captcha,CAPTCHA,CAPTCHA
 captcha::phrase.captcha,en,metafox/captcha,CAPTCHA,CAPTCHA
-captcha::phrase.captcha_image,en,metafox/captcha,CAPTCHA Image,CAPTCHA Image
-captcha::phrase.captcha_settings,en,metafox/captcha,CAPTCHA Settings,CAPTCHA Settings
+captcha::phrase.captcha_image,en,metafox/captcha,CAPTCHA Image,CAPTCHA Kép
+captcha::phrase.captcha_settings,en,metafox/captcha,CAPTCHA Settings,CAPTCHA Beállítások
 captcha::phrase.edit_type,en,metafox/captcha,,
-captcha::phrase.manage_captcha,en,metafox/captcha,Manage CAPTCHA,Manage CAPTCHA
-captcha::phrase.recaptcha_description,en,metafox/captcha,Visit google.com/recaptcha and get free key,Visit google.com/recaptcha and get free key
+captcha::phrase.manage_captcha,en,metafox/captcha,Manage CAPTCHA,CAPTCHA Kezelése
+captcha::phrase.recaptcha_description,en,metafox/captcha,Visit google.com/recaptcha and get free key,"Látogasson el a google.com/recaptcha oldalra, és szerezzen ingyenes kulcsot"
 captcha::phrase.recaptcha_secret,en,metafox/captcha,ReCAPTCHA Secret,ReCAPTCHA Secret
-captcha::phrase.recaptcha_secret_description,en,metafox/captcha,Visit google.com/recaptcha and get free key,Visit google.com/recaptcha and get free key
-captcha::phrase.recaptcha_site_key,en,metafox/captcha,ReCAPTCHA Site Key,ReCAPTCHA Site Key
-captcha::phrase.rules,en,metafox/captcha,Rules,Rules
+captcha::phrase.recaptcha_secret_description,en,metafox/captcha,Visit google.com/recaptcha and get free key,"Látogasson el a google.com/recaptcha oldalra, és szerezzen ingyenes kulcsot"
+captcha::phrase.recaptcha_site_key,en,metafox/captcha,ReCAPTCHA Site Key,ReCAPTCHA Oldal Kulcs
+captcha::phrase.rules,en,metafox/captcha,Rules,Szabályok
 chat::phrase.app_name,en,metafox/chat,Chat,Chat
 chat::phrase.chat,en,metafox/chat,Chat,Chat
 chat::phrase.chat_room_lower,en,metafox/chat,chat room,chat room
 chat::phrase.chat_setting,en,metafox/chat,,
-chat::phrase.chat_with,en,metafox/chat,Chat With,Chat With
-chat::phrase.delete_confirm,en,metafox/chat,Are you sure you want to permanently delete this discussion?,Are you sure you want to permanently delete this discussion?
-chat::phrase.delete_message_confirm,en,metafox/chat,Are you sure you want to delete this message?,Are you sure you want to delete this message?
-chat::phrase.manage_chat,en,metafox/chat,Manage Chat,Manage Chat
-chat::phrase.mark_all_read_successfully,en,metafox/chat,Conversation was marked all read successfully.,Conversation was marked all read successfully.
-chat::phrase.messages,en,metafox/chat,Messages,Messages
-chat::phrase.new_conversation,en,metafox/chat,New Conversation,New Conversation
-chat::phrase.new_message_notification_type,en,metafox/chat,New Messages,New Messages
+chat::phrase.chat_with,en,metafox/chat,Chat With,Beszélgetés
+chat::phrase.delete_confirm,en,metafox/chat,Are you sure you want to permanently delete this discussion?,Biztosan véglegesen törölni szeretné ezt a beszélgetést?
+chat::phrase.delete_message_confirm,en,metafox/chat,Are you sure you want to delete this message?,Biztosan törölni szeretné ezt az üzenetet?
+chat::phrase.manage_chat,en,metafox/chat,Manage Chat,Beszélgetés Kezelése
+chat::phrase.mark_all_read_successfully,en,metafox/chat,Conversation was marked all read successfully.,A beszélgetést sikeresen mindenki által olvasottnak jelölték.
+chat::phrase.messages,en,metafox/chat,Messages,Üzenetek
+chat::phrase.new_conversation,en,metafox/chat,New Conversation,Új Beszélgetés
+chat::phrase.new_message_notification_type,en,metafox/chat,New Messages,Új Üzenetek
 chat::phrase.permissions,en,metafox/chat,,
-chat::phrase.you_cannot_send_message,en,metafox/chat,You cannot send message,You cannot send message
-chat::seo.messages,en,metafox/chat,Messages,Messages
-chat::web.1_person_reacted,en,metafox/chat,1 person reacted,1 person reacted
-chat::web.1_user,en,metafox/chat,1 user,1 user
-chat::web.actions,en,metafox/chat,Actions,Actions
-chat::web.action_successfully,en,metafox/chat,{action} successfully.,{action} successfully.
-chat::web.active_time_ago,en,metafox/chat,Active {time} ago,Active {time} ago
-chat::web.activity,en,metafox/chat,Activity,Activity
-chat::web.add_members,en,metafox/chat,Add Members,Add Members
-chat::web.add_members_dot,en,metafox/chat,Add members ...,Add members ...
-chat::web.add_participants,en,metafox/chat,Add Participants,Add Participants
-chat::web.add_reaction,en,metafox/chat,Add Reaction,Add Reaction
-chat::web.add_server,en,metafox/chat,Add Server,Add Server
-chat::web.add_user,en,metafox/chat,Add user,Add user
-chat::web.add_users_to_group_successfully,en,metafox/chat,Added user(s) to group successfully.,Added user(s) to group successfully.
+chat::phrase.you_cannot_send_message,en,metafox/chat,You cannot send message,Nem küldhetsz üzenetet
+chat::seo.messages,en,metafox/chat,Messages,Üzenetek
+chat::web.1_person_reacted,en,metafox/chat,1 person reacted,1 személy reagált
+chat::web.1_user,en,metafox/chat,1 user,1 felhasználó
+chat::web.actions,en,metafox/chat,Actions,Műveletek
+chat::web.action_successfully,en,metafox/chat,{action} successfully.,{action} sikeres.
+chat::web.active_time_ago,en,metafox/chat,Active {time} ago,Aktív {time} 
+chat::web.activity,en,metafox/chat,Activity,Aktivitás
+chat::web.add_members,en,metafox/chat,Add Members,Tagok hozzáadása
+chat::web.add_members_dot,en,metafox/chat,Add members ...,Tagok hozzáadása ...
+chat::web.add_participants,en,metafox/chat,Add Participants,Résztvevők hozzáadása
+chat::web.add_reaction,en,metafox/chat,Add Reaction,Reakció hozzáadása
+chat::web.add_server,en,metafox/chat,Add Server,Szerver hozzáadása
+chat::web.add_user,en,metafox/chat,Add user,Felhasználó hozzáadása
+chat::web.add_users_to_group_successfully,en,metafox/chat,Added user(s) to group successfully.,A felhasználó(k) sikeresen hozzáadva a csoportba.
 chat::web.admin_panel,en,metafox/chat,Admin Panel,Admin Panel
-chat::web.all_chats,en,metafox/chat,All Chats,All Chats
-chat::web.all_messages,en,metafox/chat,All Messages,All Messages
-chat::web.allow_reactions,en,metafox/chat,Allow Reactions,Allow Reactions
+chat::web.all_chats,en,metafox/chat,All Chats,Minden Beszélgetés
+chat::web.all_messages,en,metafox/chat,All Messages,Minden Üzenet
+chat::web.allow_reactions,en,metafox/chat,Allow Reactions,Reakciók Engedélyezése
 chat::web.alphabetical,en,metafox/chat,Alphabetical,Alphabetical
 chat::web.and_value_more_dots,en,metafox/chat,and {value} more ...,and {value} more ...
-chat::web.announcement,en,metafox/chat,Announcement,Announcement
-chat::web.archive,en,metafox/chat,Archive,Archive
-chat::web.ARCHIVE,en,metafox/chat,ARCHIVE,ARCHIVE
-chat::web.archived_chats,en,metafox/chat,Archived Chats,Archived Chats
-chat::web.archives,en,metafox/chat,Archives,Archives
-chat::web.are_you_sure,en,metafox/chat,Are you sure?,Are you sure?
-chat::web.are_you_sure_question_mark,en,metafox/chat,Are you sure?,Are you sure?
-chat::web.are_you_sure_to_hide_this_discussion,en,metafox/chat,Are you sure you want to hide this discussion?,Are you sure you want to hide this discussion?
-chat::web.are_you_sure_you_want_to_hide_the_conversation,en,metafox/chat,Are you sure you want to hide the conversation?,Are you sure you want to hide the conversation?
-chat::web.attach_files,en,metafox/chat,Attach Files,Attach Files
-chat::web.attach_images,en,metafox/chat,Attach images,Attach images
-chat::web.audio,en,metafox/chat,Audio,Audio
-chat::web.authenticating,en,metafox/chat,Authenticating,Authenticating
-chat::web.auto_translate,en,metafox/chat,Auto-Translate,Auto-Translate
-chat::web.avatar_changed_successfully,en,metafox/chat,Avatar was changed successfully!,Avatar was changed successfully!
+chat::web.announcement,en,metafox/chat,Announcement,Bejelentés
+chat::web.archive,en,metafox/chat,Archive,Archiválás
+chat::web.ARCHIVE,en,metafox/chat,ARCHIVE,ARCHÍVUM
+chat::web.archived_chats,en,metafox/chat,Archived Chats,Archivált Beszélgetések
+chat::web.archives,en,metafox/chat,Archives,Archívum
+chat::web.are_you_sure,en,metafox/chat,Are you sure?,Biztos vagy benne?
+chat::web.are_you_sure_question_mark,en,metafox/chat,Are you sure?,Biztos vagy benne?
+chat::web.are_you_sure_to_hide_this_discussion,en,metafox/chat,Are you sure you want to hide this discussion?,"Biztos vagy benne, hogy el akarja rejtíteni ezt a beszélgetést?"
+chat::web.are_you_sure_you_want_to_hide_the_conversation,en,metafox/chat,Are you sure you want to hide the conversation?,"Biztos vagy benne, hogy el akarja rejtíteni a beszélgetést?"
+chat::web.attach_files,en,metafox/chat,Attach Files,Fájlok csatolása
+chat::web.attach_images,en,metafox/chat,Attach images,Képek csatolása
+chat::web.audio,en,metafox/chat,Audio,Hang
+chat::web.authenticating,en,metafox/chat,Authenticating,Hitelesítés
+chat::web.auto_translate,en,metafox/chat,Auto-Translate,Automatikus Fordítás
+chat::web.avatar_changed_successfully,en,metafox/chat,Avatar was changed successfully!,Avatar sikeresen megváltoztatva!
 chat::web.avatar_url,en,metafox/chat,Avatar URL,Avatar URL
-chat::web.away,en,metafox/chat,Away,Away
-chat::web.block_chat,en,metafox/chat,Block Chat,Block Chat
-chat::web.block_user,en,metafox/chat,Block user,Block user
-chat::web.block_user_successfully,en,metafox/chat,Blocked user successfully.,Blocked user successfully.
-chat::web.busy,en,metafox/chat,Busy,Busy
-chat::web.by_proceeding_you_are_agreeing,en,metafox/chat,By proceeding you agree with our,By proceeding you agree with our
-chat::web.cancel,en,metafox/chat,Cancel,Cancel
-chat::web.cancel_editing,en,metafox/chat,Cancel editing,Cancel editing
-chat::web.cancel_recording,en,metafox/chat,Cancel recording,Cancel recording
-chat::web.can_chat_with_friend_only,en,metafox/chat,Can chat with friends only,Can chat with friends only
-chat::web.can_not_connect_to_chat_server,en,metafox/chat,Can not connect to chat server,Can not connect to chat server
-chat::web.can_not_direct_chat_this_user,en,metafox/chat,Can not chat with this user,Can not chat with this user
-chat::web.change_group_image,en,metafox/chat,Change Group Image,Change Group Image
-chat::web.change_language,en,metafox/chat,Change Language,Change Language
-chat::web.change_name_group,en,metafox/chat,Change name group,Change name group
-chat::web.changing_avatar,en,metafox/chat,changing avatar,changing avatar
-chat::web.channel_name,en,metafox/chat,Group Name,Group Name
-chat::web.channels,en,metafox/chat,Groups,Groups
-chat::web.chat,en,metafox/chat,Chat,Chat
-chat::web.chat_room_can_not_found,en,metafox/chat,The chat room you are looking for cannot be found.,The chat room you are looking for cannot be found.
-chat::web.chats,en,metafox/chat,Chats,Chats
-chat::web.choose,en,metafox/chat,Choose,Choose
-chat::web.choose_from_library,en,metafox/chat,Choose from library,Choose from library
-chat::web.close,en,metafox/chat,Close,Close
-chat::web.close_all_boxchats,en,metafox/chat,Close all chat boxes,Close all chat boxes
-chat::web.close_chat_box,en,metafox/chat,Close chat box,Close chat box
-chat::web.close_emoji_selector,en,metafox/chat,Close emoji selector,Close emoji selector
+chat::web.away,en,metafox/chat,Away,Távol
+chat::web.block_chat,en,metafox/chat,Block Chat,Beszélgetés Blokkolása
+chat::web.block_user,en,metafox/chat,Block user,Felhasználó Blokkolása
+chat::web.block_user_successfully,en,metafox/chat,Blocked user successfully.,A felhasználó sikeresen blokkolva.
+chat::web.busy,en,metafox/chat,Busy,Elfoglalt
+chat::web.by_proceeding_you_are_agreeing,en,metafox/chat,By proceeding you agree with our,Folytatásához elfogadja az alábbiakat
+chat::web.cancel,en,metafox/chat,Cancel,Mégse
+chat::web.cancel_editing,en,metafox/chat,Cancel editing,Szerkesztés megszakítása
+chat::web.cancel_recording,en,metafox/chat,Cancel recording,Felvétel megszakítása
+chat::web.can_chat_with_friend_only,en,metafox/chat,Can chat with friends only,Beszélgetés barátaival csak
+chat::web.can_not_connect_to_chat_server,en,metafox/chat,Can not connect to chat server,Nem lehet csatlakozni a csevegőszerverhez
+chat::web.can_not_direct_chat_this_user,en,metafox/chat,Can not chat with this user,Nem lehet ezzel a felhasználóval csevegni
+chat::web.change_group_image,en,metafox/chat,Change Group Image,Csoportkép módosítása
+chat::web.change_language,en,metafox/chat,Change Language,Nyelv módosítása
+chat::web.change_name_group,en,metafox/chat,Change name group,Csoportnév módosítása
+chat::web.changing_avatar,en,metafox/chat,changing avatar,Avatar módosítása
+chat::web.channel_name,en,metafox/chat,Group Name,Csoport Név
+chat::web.channels,en,metafox/chat,Groups,Csoportok
+chat::web.chat,en,metafox/chat,Chat,Csevegés
+chat::web.chat_room_can_not_found,en,metafox/chat,The chat room you are looking for cannot be found.,A csevegőszobát nem található.
+chat::web.chats,en,metafox/chat,Chats,Csevegések
+chat::web.choose,en,metafox/chat,Choose,Válassz
+chat::web.choose_from_library,en,metafox/chat,Choose from library,Válasszon a könyvtárból
+chat::web.close,en,metafox/chat,Close,Bezárás
+chat::web.close_all_boxchats,en,metafox/chat,Close all chat boxes,Összes csevegőablak bezárása
+chat::web.close_chat_box,en,metafox/chat,Close chat box,Csevegőablak bezárása
+chat::web.close_emoji_selector,en,metafox/chat,Close emoji selector,Emoji választó bezárása
 chat::web.code,en,metafox/chat,Code,Code
-chat::web.collaborative,en,metafox/chat,Collaborative,Collaborative
-chat::web.confirm,en,metafox/chat,Confirm,Confirm
-chat::web.connect,en,metafox/chat,Connect,Connect
-chat::web.connected,en,metafox/chat,Connected,Connected
-chat::web.connecting,en,metafox/chat,Connecting...,Connecting...
-chat::web.connecting_dots,en,metafox/chat,Connecting ...,Connecting ...
-chat::web.connecting_server,en,metafox/chat,connecting to server,connecting to server
-chat::web.connect_to_a_server,en,metafox/chat,Connect to a server,Connect to a server
-chat::web.contacts,en,metafox/chat,Contacts,Contacts
-chat::web.contact_us,en,metafox/chat,Contact us,Contact us
-chat::web.continue_with,en,metafox/chat,Continue with,Continue with
-chat::web.copy,en,metafox/chat,Copy,Copy
-chat::web.crash_report_disclaimer,en,metafox/chat,We never track content of your chats. The crash reports only contain relevant information.,We never track content of your chats. The crash reports only contain relevant information.
-chat::web.create,en,metafox/chat,Create,Create
-chat::web.create_account,en,metafox/chat,Create an account,Create an account
-chat::web.create_a_new_workspace,en,metafox/chat,Create a new workspace,Create a new workspace
-chat::web.create_conversation,en,metafox/chat,Create Conversation,Create Conversation
-chat::web.created_snippet,en,metafox/chat,Created a snippet,Created a snippet
-chat::web.current,en,metafox/chat,Current,Current
-chat::web.delete,en,metafox/chat,Delete,Delete
-chat::web.delete_group_successfully,en,metafox/chat,Deleted group successfully.,Deleted group successfully.
-chat::web.delete_msg,en,metafox/chat,Are you sure you want to delete this message?,Are you sure you want to delete this message?
-chat::web.delete_room_description,en,metafox/chat,Are you sure you want to delete this discussion?,Are you sure you want to delete this discussion?
-chat::web.description,en,metafox/chat,Description,Description
-chat::web.deselect_value,en,metafox/chat,De-select ({value}),De-select ({value})
-chat::web.direct_messages,en,metafox/chat,Direct Messages,Direct Messages
-chat::web.directory,en,metafox/chat,Directory,Directory
-chat::web.disable_notifications,en,metafox/chat,Disable notifications,Disable notifications
-chat::web.discard_current_change,en,metafox/chat,Discard current change,Discard current change
-chat::web.discussions,en,metafox/chat,Discussions,Discussions
-chat::web.download_audio_successfully,en,metafox/chat,Downloaded audio successfully.,Downloaded audio successfully.
-chat::web.downloading,en,metafox/chat,Downloading...,Downloading...
-chat::web.download_video_successfully,en,metafox/chat,Downloaded video successfully.,Downloaded video successfully.
-chat::web.do_you_really_want_to_key_this_group_question_mark,en,metafox/chat,Do you really want to {key} this group?,Do you really want to {key} this group?
-chat::web.do_you_really_want_to_key_this_room_question_mark,en,metafox/chat,Do you really want to {key} this group?,Do you really want to {key} this group?
-chat::web.edit,en,metafox/chat,Edit,Edit
-chat::web.edited,en,metafox/chat,edited,edited
-chat::web.edited_by_user_at_timestamp,en,metafox/chat,Edited by {username} at {timestamp},Edited by {username} at {timestamp}
-chat::web.edit_group_avatar,en,metafox/chat,Edit group avatar,Edit group avatar
-chat::web.editing,en,metafox/chat,Editing,Editing
-chat::web.editing_message,en,metafox/chat,Editing message,Editing message
-chat::web.edit_notification,en,metafox/chat,Edit Notification,Edit Notification
+chat::web.collaborative,en,metafox/chat,Collaborative,Együttműködő
+chat::web.confirm,en,metafox/chat,Confirm,Megerősítés
+chat::web.connect,en,metafox/chat,Connect,Kapcsolódás
+chat::web.connected,en,metafox/chat,Connected,Csatlakozva
+chat::web.connecting,en,metafox/chat,Connecting...,Kapcsolódás...
+chat::web.connecting_dots,en,metafox/chat,Connecting ...,Kapcsolódás ...
+chat::web.connecting_server,en,metafox/chat,connecting to server,kapcsolódás a szerverhez
+chat::web.connect_to_a_server,en,metafox/chat,Connect to a server,Csatlakozás egy szerverhez
+chat::web.contacts,en,metafox/chat,Contacts,Kapcsolatok
+chat::web.contact_us,en,metafox/chat,Contact us,Kapcsolatfelvétel
+chat::web.continue_with,en,metafox/chat,Continue with,Folytatni a(z)
+chat::web.copy,en,metafox/chat,Copy,Másolás
+chat::web.crash_report_disclaimer,en,metafox/chat,We never track content of your chats. The crash reports only contain relevant information.,Soha nem követjük nyomon a csevegése tartalmát. A hibaüzenetek csak releváns információkat tartalmaznak.
+chat::web.create,en,metafox/chat,Create,Létrehozás
+chat::web.create_account,en,metafox/chat,Create an account,Fiók létrehozása
+chat::web.create_a_new_workspace,en,metafox/chat,Create a new workspace,Új munkaterület létrehozása
+chat::web.create_conversation,en,metafox/chat,Create Conversation,Beszélgetés létrehozása
+chat::web.created_snippet,en,metafox/chat,Created a snippet,Kód darab létrehozva
+chat::web.current,en,metafox/chat,Current,Jelenlegi
+chat::web.delete,en,metafox/chat,Delete,Törlés
+chat::web.delete_group_successfully,en,metafox/chat,Deleted group successfully.,A csoport sikeresen törölve.
+chat::web.delete_msg,en,metafox/chat,Are you sure you want to delete this message?,Biztosan törölni szeretné ezt az üzenetet?
+chat::web.delete_room_description,en,metafox/chat,Are you sure you want to delete this discussion?,Biztosan törölni szeretné ezt a beszélgetést?
+chat::web.description,en,metafox/chat,Description,Leírás
+chat::web.deselect_value,en,metafox/chat,De-select ({value}),Kiválasztás megszüntetése ({value})
+chat::web.direct_messages,en,metafox/chat,Direct Messages,Közvetlen üzenetek
+chat::web.directory,en,metafox/chat,Directory,Könyvtár
+chat::web.disable_notifications,en,metafox/chat,Disable notifications,Értesítések letiltása
+chat::web.discard_current_change,en,metafox/chat,Discard current change,Jelenlegi változtatás elvetése
+chat::web.discussions,en,metafox/chat,Discussions,Beszélgetések
+chat::web.download_audio_successfully,en,metafox/chat,Downloaded audio successfully.,Hangfájl sikeresen letöltve.
+chat::web.downloading,en,metafox/chat,Downloading...,Letöltés...
+chat::web.download_video_successfully,en,metafox/chat,Downloaded video successfully.,Videó sikeresen letöltve.
+chat::web.do_you_really_want_to_key_this_group_question_mark,en,metafox/chat,Do you really want to {key} this group?,Biztosan {key}  szeretné ezt a csoportot?
+chat::web.do_you_really_want_to_key_this_room_question_mark,en,metafox/chat,Do you really want to {key} this group?,Biztosan {key}  szeretné ezt a csoportot?
+chat::web.edit,en,metafox/chat,Edit,Szerkesztés
+chat::web.edited,en,metafox/chat,edited,szerkesztve
+chat::web.edited_by_user_at_timestamp,en,metafox/chat,Edited by {username} at {timestamp},"Szerkesztette: {username} , ekkor: {timestamp}"
+chat::web.edit_group_avatar,en,metafox/chat,Edit group avatar,Csoport avatar szerkesztése
+chat::web.editing,en,metafox/chat,Editing,Szerkesztés
+chat::web.editing_message,en,metafox/chat,Editing message,Üzenet szerkesztése
+chat::web.edit_notification,en,metafox/chat,Edit Notification,Szerkesztés értesítése
 chat::web.email,en,metafox/chat,Email,Email
-chat::web.email_alerts,en,metafox/chat,Email Alerts,Email Alerts
-chat::web.email_or_password_field_is_empty,en,metafox/chat,Email or password field is empty,Email or password field is empty
-chat::web.enable_auto_away,en,metafox/chat,Enable Auto Away,Enable Auto Away
-chat::web.enable_auto_translate,en,metafox/chat,Enable Auto-Translate,Enable Auto-Translate
-chat::web.enable_features,en,metafox/chat,Enable Features,Enable Features
-chat::web.enable_markdown,en,metafox/chat,Enable markdown,Enable markdown
-chat::web.enable_notifications,en,metafox/chat,Enable notifications,Enable notifications
-chat::web.erasing_group,en,metafox/chat,erasing group,erasing group
-chat::web.erasing_room,en,metafox/chat,erasing group,erasing group
-chat::web.error_action_not_allowed,en,metafox/chat,{action} is not allowed,{action} is not allowed
-chat::web.error_application_not_found,en,metafox/chat,App cannot be found.,App cannot be found.
-chat::web.error_archived_duplicate_name,en,metafox/chat,There's an archived group with name {room_name},There's an archived group with name {room_name}
-chat::web.error_avatar_invalid_url,en,metafox/chat,Invalid avatar URL: {url},Invalid avatar URL: {url}
-chat::web.error_avatar_url_handling,en,metafox/chat,Error while handling avatar setting from a URL ({url}) for {username},Error while handling avatar setting from a URL ({url}) for {username}
-chat::web.error_cant_invite_for_direct_room,en,metafox/chat,Cannot invite user to direct chat,Cannot invite user to direct chat
-chat::web.error_code_invalid,en,metafox/chat,Invalid group join code,Invalid group join code
-chat::web.error_could_not_change_email,en,metafox/chat,Could not change email address,Could not change email address
-chat::web.error_could_not_change_name,en,metafox/chat,Could not change name,Could not change name
-chat::web.error_could_not_change_username,en,metafox/chat,Could not change username,Could not change username
-chat::web.error_delete_protected_role,en,metafox/chat,Cannot delete a protected role,Cannot delete a protected role
-chat::web.error_department_not_found,en,metafox/chat,Department cannot be found.,Department cannot be found.
-chat::web.error_direct_message_file_upload_not_allowed,en,metafox/chat,File sharing is not allowed in direct messages,File sharing is not allowed in direct messages
-chat::web.error_duplicate_channel_name,en,metafox/chat,A group with name {channel_name} exists,A group with name {channel_name} exists
-chat::web.error_email_domain_blacklisted,en,metafox/chat,The email domain is blacklisted,The email domain is blacklisted
-chat::web.error_email_send_failed,en,metafox/chat,Error when sending email: {message},Error when sending email: {message}
-chat::web.error_field_unavailable,en,metafox/chat,{field} is already in use.,{field} is already in use.
-chat::web.error_file_too_large,en,metafox/chat,File is too large,File is too large
-chat::web.error_importer_not_defined,en,metafox/chat,"The importer was not defined correctly, it is missing the Import class.","The importer was not defined correctly, it is missing the Import class."
-chat::web.error_input_is_not_a_valid_field,en,metafox/chat,{input} is not a valid {field},{input} is not a valid {field}
-chat::web.error_invalid_action_link,en,metafox/chat,Invalid action link,Invalid action link
-chat::web.error_invalid_arguments,en,metafox/chat,Invalid arguments,Invalid arguments
-chat::web.error_invalid_asset,en,metafox/chat,Invalid asset,Invalid asset
-chat::web.error_invalid_custom_field,en,metafox/chat,Invalid custom field,Invalid custom field
-chat::web.error_invalid_custom_field_name,en,metafox/chat,"Invalid custom field name. Use only letters, numbers, hyphens and underscores.","Invalid custom field name. Use only letters, numbers, hyphens and underscores."
-chat::web.error_invalid_date,en,metafox/chat,Invalid date provided.,Invalid date provided.
-chat::web.error_invalid_description,en,metafox/chat,Invalid description,Invalid description
-chat::web.error_invalid_domain,en,metafox/chat,Invalid domain,Invalid domain
-chat::web.error_invalid_email,en,metafox/chat,Invalid email {emai},Invalid email {emai}
-chat::web.error_invalid_email_address,en,metafox/chat,Invalid email address,Invalid email address
-chat::web.error_invalid_file_height,en,metafox/chat,Invalid file height,Invalid file height
-chat::web.error_invalid_file_type,en,metafox/chat,Invalid file type,Invalid file type
-chat::web.error_invalid_file_width,en,metafox/chat,Invalid file width,Invalid file width
-chat::web.error_invalid_from_address,en,metafox/chat,Invalid From address.,Invalid From address.
-chat::web.error_invalid_integration,en,metafox/chat,Invalid integration,Invalid integration
-chat::web.error_invalid_message,en,metafox/chat,Invalid message,Invalid message
-chat::web.error_invalid_method,en,metafox/chat,Invalid method,Invalid method
-chat::web.error_invalid_name,en,metafox/chat,Invalid name,Invalid name
-chat::web.error_invalid_password,en,metafox/chat,Invalid password,Invalid password
-chat::web.error_invalid_redirecturi,en,metafox/chat,Invalid redirect URI,Invalid redirect URI
-chat::web.error_invalid_role,en,metafox/chat,Invalid role,Invalid role
-chat::web.error_invalid_room,en,metafox/chat,Invalid group,Invalid group
-chat::web.error_invalid_room_name,en,metafox/chat,"""{channel_name}"" is not a valid group name","""{channel_name}"" is not a valid group name"
-chat::web.error_invalid_room_type,en,metafox/chat,{type} is not a valid group type.,{type} is not a valid group type.
-chat::web.error_invalid_settings,en,metafox/chat,Invalid settings,Invalid settings
-chat::web.error_invalid_subscription,en,metafox/chat,Invalid subscription,Invalid subscription
-chat::web.error_invalid_token,en,metafox/chat,Invalid token,Invalid token
-chat::web.error_invalid_triggerwords,en,metafox/chat,Invalid triggerWords,Invalid triggerWords
-chat::web.error_invalid_urls,en,metafox/chat,Invalid URLs,Invalid URLs
-chat::web.error_invalid_user,en,metafox/chat,Invalid user,Invalid user
-chat::web.error_invalid_username,en,metafox/chat,Invalid username,Invalid username
-chat::web.error_invalid_webhook_response,en,metafox/chat,The webhook URL isn't responded with status code 200,The webhook URL isn't responded with status code 200
-chat::web.error_message_deleting_blocked,en,metafox/chat,Deleting message is blocked.,Deleting message is blocked.
-chat::web.error_message_editing_blocked,en,metafox/chat,Editing message is blocked.,Editing message is blocked.
-chat::web.error_message_size_exceeded,en,metafox/chat,Message size exceeds Message_MaxAllowedSize,Message size exceeds Message_MaxAllowedSize
-chat::web.error_missing_unsubscribe_link,en,metafox/chat,You must provide the [unsubscribe] link.,You must provide the [unsubscribe] link.
-chat::web.error_not_allowed,en,metafox/chat,You are not allowed to perform this action.,You are not allowed to perform this action.
-chat::web.error_not_authorized,en,metafox/chat,Not authorized,Not authorized
-chat::web.error_no_tokens_for_this_user,en,metafox/chat,There are no tokens for this user,There are no tokens for this user
-chat::web.error_push_disabled,en,metafox/chat,Push is disabled,Push is disabled
-chat::web.error_remove_last_owner,en,metafox/chat,This is the last owner. Please set a new owner before removing this one.,This is the last owner. Please set a new owner before removing this one.
-chat::web.error_role_in_use,en,metafox/chat,Cannot delete role because it's in use,Cannot delete role because it's in use
-chat::web.error_role_name_required,en,metafox/chat,Role name is required,Role name is required
-chat::web.error_status_not_allowed_in_invisible_mode,en,metafox/chat,You can't change status because you're in Invisible Mode,You can't change status because you're in Invisible Mode
-chat::web.error_the_field_is_a_required_field,en,metafox/chat,The field {field} is a required field.,The field {field} is a required field.
-chat::web.error_too_many_requests,en,metafox/chat,Too many requests. Please slow down. You must wait for {seconds} seconds before trying again.,Too many requests. Please slow down. You must wait for {seconds} seconds before trying again.
-chat::web.error_uploading,en,metafox/chat,Uploading was failed.,Uploading was failed.
-chat::web.error_user_has_no_roles,en,metafox/chat,User has no roles,User has no roles
-chat::web.error_user_is_not_activated,en,metafox/chat,User is not activated,User is not activated
-chat::web.error_user_limit_exceeded,en,metafox/chat,The number of users you are trying to invite to #channel_name exceeds the limit set by the administrator,The number of users you are trying to invite to #channel_name exceeds the limit set by the administrator
-chat::web.error_user_not_in_room,en,metafox/chat,User is not in this group,User is not in this group
-chat::web.error_user_registration_disabled,en,metafox/chat,User registration is disabled,User registration is disabled
-chat::web.error_user_registration_secret,en,metafox/chat,User registration is only allowed via Secret URL,User registration is only allowed via Secret URL
-chat::web.error_you_are_last_owner,en,metafox/chat,You are the last owner. Please set new owner before leaving the group.,You are the last owner. Please set new owner before leaving the group.
-chat::web.everyone_can_access_this_group,en,metafox/chat,Everyone can access this group,Everyone can access this group
-chat::web.favorite,en,metafox/chat,Favorite,Favorite
-chat::web.favorites,en,metafox/chat,Favorites,Favorites
-chat::web.favorite_successfully,en,metafox/chat,Favorited successfully.,Favorited successfully.
-chat::web.file_attachment,en,metafox/chat,File attachment,File attachment
-chat::web.file_attachments,en,metafox/chat,File attachments,File attachments
-chat::web.file_description,en,metafox/chat,File description,File description
-chat::web.fileMessage,en,metafox/chat,Sent a file,Sent a file
-chat::web.file_name,en,metafox/chat,File name,File name
-chat::web.files,en,metafox/chat,Files,Files
-chat::web.file_size_exceed_the_maximum_size_mb,en,metafox/chat,File size exceeds the maximum size: {size} MB,File size exceeds the maximum size: {size} MB
-chat::web.finish_recording,en,metafox/chat,Finish recording,Finish recording
-chat::web.first_name,en,metafox/chat,First Name,First Name
-chat::web.following_thread,en,metafox/chat,Following thread,Following thread
-chat::web.forgot_my_password,en,metafox/chat,Forgot my password,Forgot my password
-chat::web.forgot_password,en,metafox/chat,Forgot password,Forgot password
-chat::web.forgot_password_if_this_email_is_registered,en,metafox/chat,"If this email is registered, we'll send instructions on how to reset your password. If you do not receive an email shortly, please come back and try again.","If this email is registered, we'll send instructions on how to reset your password. If you do not receive an email shortly, please come back and try again."
-chat::web.for_your_security_you_must_enter_your_current_password_to_continue,en,metafox/chat,"For your security, you must enter your current password to continue","For your security, you must enter your current password to continue"
-chat::web.get_link,en,metafox/chat,Get link,Get link
-chat::web.here,en,metafox/chat,Here,Here
-chat::web.hide,en,metafox/chat,Hide,Hide
-chat::web.hide_conversation,en,metafox/chat,Hide Conversation,Hide Conversation
-chat::web.hide_room_description,en,metafox/chat,Are you sure you want to hide this discussion?,Are you sure you want to hide this discussion?
-chat::web.i_am_away,en,metafox/chat,Away,Away
-chat::web.i_am_busy,en,metafox/chat,Busy,Busy
-chat::web.i_am_invisible,en,metafox/chat,Invisible,Invisible
-chat::web.i_am_online,en,metafox/chat,I'm online,I'm online
+chat::web.email_alerts,en,metafox/chat,Email Alerts,E-mail értesítések
+chat::web.email_or_password_field_is_empty,en,metafox/chat,Email or password field is empty,Az e-mail vagy jelszó mező üres
+chat::web.enable_auto_away,en,metafox/chat,Enable Auto Away,Automatikus távolállás engedélyezése
+chat::web.enable_auto_translate,en,metafox/chat,Enable Auto-Translate,Automatikus fordítás engedélyezése
+chat::web.enable_features,en,metafox/chat,Enable Features,Funkciók engedélyezése
+chat::web.enable_markdown,en,metafox/chat,Enable markdown,Markdown engedélyezése
+chat::web.enable_notifications,en,metafox/chat,Enable notifications,Értesítések engedélyezése
+chat::web.erasing_group,en,metafox/chat,erasing group,csoport törlése
+chat::web.erasing_room,en,metafox/chat,erasing group,csoport törlése
+chat::web.error_action_not_allowed,en,metafox/chat,{action} is not allowed,{action} nincs engedélyezve.
+chat::web.error_application_not_found,en,metafox/chat,App cannot be found.,Az alkalmazás nem található.
+chat::web.error_archived_duplicate_name,en,metafox/chat,There's an archived group with name {room_name},Archivált csoport a(z) {room_name} néven
+chat::web.error_avatar_invalid_url,en,metafox/chat,Invalid avatar URL: {url},Érvénytelen avatar URL: {url}
+chat::web.error_avatar_url_handling,en,metafox/chat,Error while handling avatar setting from a URL ({url}) for {username},Hiba az avatar beállításának kezelése közben ({url}) {username} számára
+chat::web.error_cant_invite_for_direct_room,en,metafox/chat,Cannot invite user to direct chat,Nem lehet felhasználót meghívni közvetlen csevegésre
+chat::web.error_code_invalid,en,metafox/chat,Invalid group join code,Érvénytelen csoport csatlakozási kód
+chat::web.error_could_not_change_email,en,metafox/chat,Could not change email address,Nem sikerült megváltoztatni az e-mail címet
+chat::web.error_could_not_change_name,en,metafox/chat,Could not change name,Nem sikerült megváltoztatni a nevet
+chat::web.error_could_not_change_username,en,metafox/chat,Could not change username,Nem sikerült megváltoztatni a felhasználónevet
+chat::web.error_delete_protected_role,en,metafox/chat,Cannot delete a protected role,Nem lehet törölni egy védett szerepet
+chat::web.error_department_not_found,en,metafox/chat,Department cannot be found.,A részleg nem található.
+chat::web.error_direct_message_file_upload_not_allowed,en,metafox/chat,File sharing is not allowed in direct messages,Fájlmegosztás nem engedélyezett közvetlen üzenetekben
+chat::web.error_duplicate_channel_name,en,metafox/chat,A group with name {channel_name} exists,Egy csoport már létezik a(z) {channel_name} névvel
+chat::web.error_email_domain_blacklisted,en,metafox/chat,The email domain is blacklisted,Az e-mail domain feketelistán van
+chat::web.error_email_send_failed,en,metafox/chat,Error when sending email: {message},Hiba az e-mail küldésekor: {message}
+chat::web.error_field_unavailable,en,metafox/chat,{field} is already in use.,{field} már használatban van.
+chat::web.error_file_too_large,en,metafox/chat,File is too large,A fájl túl nagy
+chat::web.error_importer_not_defined,en,metafox/chat,"The importer was not defined correctly, it is missing the Import class.","A beimportáló osztály nem volt megfelelően definiálva, hiányzik az Import osztály."
+chat::web.error_input_is_not_a_valid_field,en,metafox/chat,{input} is not a valid {field},{input} nem érvényes {field}
+chat::web.error_invalid_action_link,en,metafox/chat,Invalid action link,Érvénytelen műveleti link
+chat::web.error_invalid_arguments,en,metafox/chat,Invalid arguments,Érvénytelen argumentumok
+chat::web.error_invalid_asset,en,metafox/chat,Invalid asset,Érvénytelen eszköz
+chat::web.error_invalid_custom_field,en,metafox/chat,Invalid custom field,Érvénytelen egyéni mező
+chat::web.error_invalid_custom_field_name,en,metafox/chat,"Invalid custom field name. Use only letters, numbers, hyphens and underscores.","Érvénytelen egyéni mezőnév. Csak betűket, számokat, kötőjeleket és aláhúzásokat használjon."
+chat::web.error_invalid_date,en,metafox/chat,Invalid date provided.,Érvénytelen dátum
+chat::web.error_invalid_description,en,metafox/chat,Invalid description,Érvénytelen leírás
+chat::web.error_invalid_domain,en,metafox/chat,Invalid domain,Érvénytelen domain
+chat::web.error_invalid_email,en,metafox/chat,Invalid email {emai},Érvénytelen e-mail {emai}
+chat::web.error_invalid_email_address,en,metafox/chat,Invalid email address,Érvénytelen e-mail cím
+chat::web.error_invalid_file_height,en,metafox/chat,Invalid file height,Érvénytelen fájlmagasság
+chat::web.error_invalid_file_type,en,metafox/chat,Invalid file type,Érvénytelen fájltípus
+chat::web.error_invalid_file_width,en,metafox/chat,Invalid file width,Érvénytelen fájlszélesség
+chat::web.error_invalid_from_address,en,metafox/chat,Invalid From address.,Érvénytelen feladó cím.
+chat::web.error_invalid_integration,en,metafox/chat,Invalid integration,Érvénytelen integráció
+chat::web.error_invalid_message,en,metafox/chat,Invalid message,Érvénytelen üzenet
+chat::web.error_invalid_method,en,metafox/chat,Invalid method,Érvénytelen módszer
+chat::web.error_invalid_name,en,metafox/chat,Invalid name,Érvénytelen név
+chat::web.error_invalid_password,en,metafox/chat,Invalid password,Érvénytelen jelszó
+chat::web.error_invalid_redirecturi,en,metafox/chat,Invalid redirect URI,Érvénytelen átirányítási URI
+chat::web.error_invalid_role,en,metafox/chat,Invalid role,Érvénytelen szerep
+chat::web.error_invalid_room,en,metafox/chat,Invalid group,Érvénytelen csoport
+chat::web.error_invalid_room_name,en,metafox/chat,"""{channel_name}"" is not a valid group name","""{channel_name}"" nem valid csoportnév"
+chat::web.error_invalid_room_type,en,metafox/chat,{type} is not a valid group type.,{type} nem valid csoport típus
+chat::web.error_invalid_settings,en,metafox/chat,Invalid settings,Érvénytelen beállítások
+chat::web.error_invalid_subscription,en,metafox/chat,Invalid subscription,Érvénytelen előfizetés
+chat::web.error_invalid_token,en,metafox/chat,Invalid token,Érvénytelen token
+chat::web.error_invalid_triggerwords,en,metafox/chat,Invalid triggerWords,Érvénytelen triggerWords
+chat::web.error_invalid_urls,en,metafox/chat,Invalid URLs,Érvénytelen URL-ek
+chat::web.error_invalid_user,en,metafox/chat,Invalid user,Érvénytelen felhasználó
+chat::web.error_invalid_username,en,metafox/chat,Invalid username,Érvénytelen felhasználónév
+chat::web.error_invalid_webhook_response,en,metafox/chat,The webhook URL isn't responded with status code 200,A webhook URL nem válaszol a 200-as státuszkóddal
+chat::web.error_message_deleting_blocked,en,metafox/chat,Deleting message is blocked.,Az üzenet törlése blokkolva van.
+chat::web.error_message_editing_blocked,en,metafox/chat,Editing message is blocked.,Az üzenet szerkesztése blokkolva van.
+chat::web.error_message_size_exceeded,en,metafox/chat,Message size exceeds Message_MaxAllowedSize,Az üzenet mérete meghaladja az Message_MaxAllowedSize
+chat::web.error_missing_unsubscribe_link,en,metafox/chat,You must provide the [unsubscribe] link.,Meg kell adnia az [unsubscribe] linket.
+chat::web.error_not_allowed,en,metafox/chat,You are not allowed to perform this action.,Nem vagy jogosult ezt a műveletet végrehajtani.
+chat::web.error_not_authorized,en,metafox/chat,Not authorized,Nem jogosult
+chat::web.error_no_tokens_for_this_user,en,metafox/chat,There are no tokens for this user,Nincsenek tokenek erre a felhasználóra
+chat::web.error_push_disabled,en,metafox/chat,Push is disabled,A push le van tiltva
+chat::web.error_remove_last_owner,en,metafox/chat,This is the last owner. Please set a new owner before removing this one.,"Ez az utolsó tulajdonos. Kérjük, állítsa be az új tulajdonost, mielőtt eltávolítaná ezt."
+chat::web.error_role_in_use,en,metafox/chat,Cannot delete role because it's in use,"Nem lehet törölni a szerepkört, mert használatban van"
+chat::web.error_role_name_required,en,metafox/chat,Role name is required,A szerep neve kötelező
+chat::web.error_status_not_allowed_in_invisible_mode,en,metafox/chat,You can't change status because you're in Invisible Mode,"Nem változtathatja meg az állapotát, mert Láthatatlan Módban van"
+chat::web.error_the_field_is_a_required_field,en,metafox/chat,The field {field} is a required field.,A {field} mező kötelező mező! 
+chat::web.error_too_many_requests,en,metafox/chat,Too many requests. Please slow down. You must wait for {seconds} seconds before trying again.,"Túl sok kérés. Kérjük, lassíts le. Várnod kell {seconds} másodpercet, mielőtt újra megpróbálod."
+chat::web.error_uploading,en,metafox/chat,Uploading was failed.,A feltöltés sikertelen volt.
+chat::web.error_user_has_no_roles,en,metafox/chat,User has no roles,A felhasználónak nincsenek szerepei
+chat::web.error_user_is_not_activated,en,metafox/chat,User is not activated,A felhasználó nincs aktiválva
+chat::web.error_user_limit_exceeded,en,metafox/chat,The number of users you are trying to invite to #channel_name exceeds the limit set by the administrator,A(z) #channel_name csatornára meghívni kívánt felhasználók száma meghaladja az adminisztrátor által beállított limitet.
+chat::web.error_user_not_in_room,en,metafox/chat,User is not in this group,A felhasználó nincs ebben a csoportban
+chat::web.error_user_registration_disabled,en,metafox/chat,User registration is disabled,A felhasználói regisztráció letiltva
+chat::web.error_user_registration_secret,en,metafox/chat,User registration is only allowed via Secret URL,A felhasználói regisztráció csak Titkos URL-en keresztül engedélyezett
+chat::web.error_you_are_last_owner,en,metafox/chat,You are the last owner. Please set new owner before leaving the group.,"Ön az utolsó tulajdonos. Kérjük, állítson be új tulajdonost, mielőtt elhagyná a csoportot."
+chat::web.everyone_can_access_this_group,en,metafox/chat,Everyone can access this group,Mindenki hozzáférhet ehhez a csoporthoz
+chat::web.favorite,en,metafox/chat,Favorite,Kedvenc
+chat::web.favorites,en,metafox/chat,Favorites,Kedvencek
+chat::web.favorite_successfully,en,metafox/chat,Favorited successfully.,Sikeresen kedvelt.
+chat::web.file_attachment,en,metafox/chat,File attachment,Fájl csatolása
+chat::web.file_attachments,en,metafox/chat,File attachments,Fájl csatolások
+chat::web.file_description,en,metafox/chat,File description,Fájlleírás
+chat::web.fileMessage,en,metafox/chat,Sent a file,Fájl küldése
+chat::web.file_name,en,metafox/chat,File name,Fájlnév
+chat::web.files,en,metafox/chat,Files,Fájlok
+chat::web.file_size_exceed_the_maximum_size_mb,en,metafox/chat,File size exceeds the maximum size: {size} MB,A fájl mérete meghaladja a maximális méretet: {size} MB
+chat::web.finish_recording,en,metafox/chat,Finish recording,Felvétel befejezése
+chat::web.first_name,en,metafox/chat,First Name,Keresztnév
+chat::web.following_thread,en,metafox/chat,Following thread,Következő
+chat::web.forgot_my_password,en,metafox/chat,Forgot my password,Elfelejtettem a jelszavam
+chat::web.forgot_password,en,metafox/chat,Forgot password,Elfelejtett jelszó
+chat::web.forgot_password_if_this_email_is_registered,en,metafox/chat,"If this email is registered, we'll send instructions on how to reset your password. If you do not receive an email shortly, please come back and try again.","Ha ez az e-mail regisztrált, útmutatást küldünk arról, hogyan állítsa vissza a jelszavát. Ha nem kap e-mailt hamarosan, kérjük, térjen vissza, és próbálkozzon újra."
+chat::web.for_your_security_you_must_enter_your_current_password_to_continue,en,metafox/chat,"For your security, you must enter your current password to continue",Biztonsági okokból meg kell adnia jelenlegi jelszavát a folytatáshoz
+chat::web.get_link,en,metafox/chat,Get link,Szerezz linket
+chat::web.here,en,metafox/chat,Here,Itt
+chat::web.hide,en,metafox/chat,Hide,Elrejtés
+chat::web.hide_conversation,en,metafox/chat,Hide Conversation,Beszélgetés elrejtése
+chat::web.hide_room_description,en,metafox/chat,Are you sure you want to hide this discussion?,"Biztos benne, hogy el akarja rejteni ezt a beszélgetést?"
+chat::web.i_am_away,en,metafox/chat,Away,Távol
+chat::web.i_am_busy,en,metafox/chat,Busy,Elfoglalt
+chat::web.i_am_invisible,en,metafox/chat,Invisible,Láthatatlan
+chat::web.i_am_online,en,metafox/chat,I'm online,Online vagyok
 chat::web.invalid_server_version,en,metafox/chat,"The server you're trying to connect is using a version that's no longer supported by the app: {currentVersion}.
 
-Please upgrade to version {minVersion} or later.","The server you're trying to connect is using a version that's no longer supported by the app: {currentVersion}.
-
-Please upgrade to version {minVersion} or later."
-chat::web.invisible,en,metafox/chat,Invisible,Invisible
-chat::web.invite,en,metafox/chat,Invite,Invite
-chat::web.is_typing,en,metafox/chat,is typing,is typing
-chat::web.join,en,metafox/chat,Join,Join
-chat::web.join_code,en,metafox/chat,Join code,Join code
-chat::web.join_group_successfully,en,metafox/chat,Joined group successfully.,Joined group successfully.
-chat::web.join_the_community,en,metafox/chat,Join the community,Join the community
-chat::web.just_invited_people_can_access_this_channel,en,metafox/chat,Only people invited can access this group,Only people invited can access this group
-chat::web.just_invited_people_can_access_this_group,en,metafox/chat,Only people invited can access this group,Only people invited can access this group
-chat::web.language,en,metafox/chat,Language,Language
-chat::web.last_message,en,metafox/chat,Last message,Last message
-chat::web.last_name,en,metafox/chat,Last Name,Last Name
-chat::web.leader,en,metafox/chat,Leader,Leader
-chat::web.leave,en,metafox/chat,Leave,Leave
-chat::web.leave_room,en,metafox/chat,Leave room,Leave room
-chat::web.leave_room_description,en,metafox/chat,You will stop receiving messages from this conversation and people will see that you left. Are you sure?,You will stop receiving messages from this conversation and people will see that you left. Are you sure?
-chat::web.legal,en,metafox/chat,Legal,Legal
-chat::web.license,en,metafox/chat,License,License
-chat::web.live_chat,en,metafox/chat,Live chat,Live chat
-chat::web.login,en,metafox/chat,Login,Login
-chat::web.login_error,en,metafox/chat,Your credentials were rejected! Please try again.,Your credentials were rejected! Please try again.
-chat::web.login_with,en,metafox/chat,Login with,Login with
-chat::web.mark_as_read,en,metafox/chat,Mark as read,Mark as read
-chat::web.mark_as_unread,en,metafox/chat,Mark as unread,Mark as unread
-chat::web.mark_read,en,metafox/chat,Mark Read,Mark Read
-chat::web.mark_unread,en,metafox/chat,Mark As Unread,Mark As Unread
-chat::web.media_and_files,en,metafox/chat,Media & Files,Media & Files
-chat::web.mentioned,en,metafox/chat,mentioned,mentioned
-chat::web.mentioned_messages,en,metafox/chat,Mentioned Messages,Mentioned Messages
-chat::web.mentions,en,metafox/chat,Mentions,Mentions
-chat::web.message,en,metafox/chat,Message,Message
-chat::web.message_accessibility,en,metafox/chat,Message from {user} at {time}: {message},Message from {user} at {time}: {message}
-chat::web.message_actions,en,metafox/chat,Message actions,Message actions
-chat::web.message_archive_chat,en,metafox/chat,All members will not be able to write any messages in this conversation once archived chat. Are you sure?,All members will not be able to write any messages in this conversation once archived chat. Are you sure?
-chat::web.message_removed,en,metafox/chat,Message has been removed.,Message has been removed.
-chat::web.message_reported,en,metafox/chat,Message has been reported.,Message has been reported.
-chat::web.messages,en,metafox/chat,Messages,Messages
-chat::web.message_unpinned,en,metafox/chat,Message has been unpinned.,Message has been unpinned.
-chat::web.message_was_deleted,en,metafox/chat,Message has been deleted.,Message has been deleted.
+Please upgrade to version {minVersion} or later.","Az a szerver, amelyhez kapcsolódni próbálsz, olyan verziót használ, amelyet az alkalmazás már nem támogat: {currentVersion}. Kérjük, frissítse a {minVersion} vagy újabb verzióra."
+chat::web.invisible,en,metafox/chat,Invisible,Láthatatlan
+chat::web.invite,en,metafox/chat,Invite,Meghívás
+chat::web.is_typing,en,metafox/chat,is typing,éppen ír...
+chat::web.join,en,metafox/chat,Join,Csatlakozás
+chat::web.join_code,en,metafox/chat,Join code,Csatlakozási kód
+chat::web.join_group_successfully,en,metafox/chat,Joined group successfully.,Csatlakozott csoport sikeresen.
+chat::web.join_the_community,en,metafox/chat,Join the community,Csatlakozzon a közösséghez
+chat::web.just_invited_people_can_access_this_channel,en,metafox/chat,Only people invited can access this group,"Csak azok az emberek férhetnek hozzá ehhez a csoporthoz, akiket meghívtak"
+chat::web.just_invited_people_can_access_this_group,en,metafox/chat,Only people invited can access this group,"Csak azok az emberek férhetnek hozzá ehhez a csoporthoz, akiket meghívtak"
+chat::web.language,en,metafox/chat,Language,Nyelv
+chat::web.last_message,en,metafox/chat,Last message,Utolsó üzenet
+chat::web.last_name,en,metafox/chat,Last Name,Utónév
+chat::web.leader,en,metafox/chat,Leader,Vezető
+chat::web.leave,en,metafox/chat,Leave,Kilépés
+chat::web.leave_room,en,metafox/chat,Leave room,Hagyja el a szobát
+chat::web.leave_room_description,en,metafox/chat,You will stop receiving messages from this conversation and people will see that you left. Are you sure?,"Már nem fog üzeneteket kapni ebből a beszélgetésből, és az emberek látni fogják, hogy elhagyta. Biztos vagy benne?"
+chat::web.legal,en,metafox/chat,Legal,Jogi
+chat::web.license,en,metafox/chat,License,Licenc
+chat::web.live_chat,en,metafox/chat,Live chat,Élő csevegés
+chat::web.login,en,metafox/chat,Login,Bejelentkezés
+chat::web.login_error,en,metafox/chat,Your credentials were rejected! Please try again.,"Az Ön hitelesítési adatait elutasították! Kérjük, próbálja újra."
+chat::web.login_with,en,metafox/chat,Login with,"Jelentkezzen be azzal,"
+chat::web.mark_as_read,en,metafox/chat,Mark as read,Megjelölés olvasottnak
+chat::web.mark_as_unread,en,metafox/chat,Mark as unread,Megjelölés olvasatlannak
+chat::web.mark_read,en,metafox/chat,Mark Read,Megjelölés Olvasottnak
+chat::web.mark_unread,en,metafox/chat,Mark As Unread,Megjelölés Olvasatlannak
+chat::web.media_and_files,en,metafox/chat,Media & Files,Média és Fájlok
+chat::web.mentioned,en,metafox/chat,mentioned,említett
+chat::web.mentioned_messages,en,metafox/chat,Mentioned Messages,Említett Üzenetek
+chat::web.mentions,en,metafox/chat,Mentions,Említések
+chat::web.message,en,metafox/chat,Message,Üzenet
+chat::web.message_accessibility,en,metafox/chat,Message from {user} at {time}: {message},Üzenet {user} -től {time}: {message}
+chat::web.message_actions,en,metafox/chat,Message actions,Üzenet műveletek
+chat::web.message_archive_chat,en,metafox/chat,All members will not be able to write any messages in this conversation once archived chat. Are you sure?,"Miután az összes tagot archiválták, az üzenetek írása nem lehetséges ebben a beszélgetésben. Biztos vagy benne?"
+chat::web.message_removed,en,metafox/chat,Message has been removed.,Az üzenetet eltávolították.
+chat::web.message_reported,en,metafox/chat,Message has been reported.,Az üzenetet bejelentették.
+chat::web.messages,en,metafox/chat,Messages,Üzenetek
+chat::web.message_unpinned,en,metafox/chat,Message has been unpinned.,Az üzenetet lecsatolták.
+chat::web.message_was_deleted,en,metafox/chat,Message has been deleted.,Az üzenetet törölték.
 chat::web.messenger,en,metafox/chat,Messenger,Messenger
-chat::web.minimize_all_boxchats_open,en,metafox/chat,Minimize all opening chat boxes,Minimize all opening chat boxes
-chat::web.mobile_alerts,en,metafox/chat,Mobile Alerts,Mobile Alerts
-chat::web.moderator,en,metafox/chat,Moderator,Moderator
-chat::web.more_conversations,en,metafox/chat,More Conversations,More Conversations
-chat::web.more_options,en,metafox/chat,More options,More options
-chat::web.mute,en,metafox/chat,Mute,Mute
-chat::web.mute_all_and_here_mentions,en,metafox/chat,Mute @all and @here mentions,Mute @all and @here mentions
-chat::web.muted,en,metafox/chat,Muted,Muted
-chat::web.mute_room_user,en,metafox/chat,Mute,Mute
-chat::web.my_servers,en,metafox/chat,My servers,My servers
-chat::web.name,en,metafox/chat,Name,Name
-chat::web.new,en,metafox/chat,New,New
-chat::web.new_chat,en,metafox/chat,New Chat,New Chat
-chat::web.new_conversation,en,metafox/chat,New Conversation,New Conversation
-chat::web.new_join_code,en,metafox/chat,New join code,New join code
-chat::web.new_message,en,metafox/chat,New Message,New Message
-chat::web.new_password,en,metafox/chat,New Password,New Password
-chat::web.new_server,en,metafox/chat,New Server,New Server
-chat::web.next,en,metafox/chat,Next,Next
-chat::web.no_announcement_provided,en,metafox/chat,No announcements are provided.,No announcements are provided.
-chat::web.no_description_provided,en,metafox/chat,No descriptions are provided.,No descriptions are provided.
-chat::web.no_files,en,metafox/chat,No files,No files
-chat::web.no_files_group_subtext,en,metafox/chat,Files that you have sent in this group will appear here.,Files that you have sent in this group will appear here.
-chat::web.no_files_subtext,en,metafox/chat,Files that you have exchanged with {name} will appear here,Files that you have exchanged with {name} will appear here
-chat::web.no_medias,en,metafox/chat,No medias,No medias
-chat::web.no_medias_subtext,en,metafox/chat,Photos and Videos that you exchange with {name} will appear here,Photos and Videos that you exchange with {name} will appear here
-chat::web.no_mentioned_messages,en,metafox/chat,No mentioned messages,No mentioned messages
-chat::web.no_message,en,metafox/chat,No Message,No Message
-chat::web.no_messages,en,metafox/chat,No Messages,No Messages
-chat::web.no_messages_found,en,metafox/chat,No messages are found.,No messages are found.
-chat::web.no_messages_yet,en,metafox/chat,No messages yet,No messages yet
-chat::web.no_more_conversations,en,metafox/chat,No more conversations,No more conversations
-chat::web.no_online_friends,en,metafox/chat,No online friends,No online friends
-chat::web.no_people_are_found,en,metafox/chat,No people are found.,No people are found.
-chat::web.no_photos_group_subtext,en,metafox/chat,Photos that you have sent in this group will appear here.,Photos that you have sent in this group will appear here.
-chat::web.no_photos_subtext,en,metafox/chat,Photos that you have exchanged with {name} will appear here.,Photos that you have exchanged with {name} will appear here.
-chat::web.no_pinned_messages,en,metafox/chat,No pinned messages,No pinned messages
-chat::web.no_reactions,en,metafox/chat,No Reactions,No Reactions
-chat::web.no_read_receipts,en,metafox/chat,No Read Receipts,No Read Receipts
-chat::web.no_results_found,en,metafox/chat,No results are found.,No results are found.
-chat::web.no_starred_messages,en,metafox/chat,No starred messages,No starred messages
-chat::web.nothing_to_save,en,metafox/chat,Nothing to save!,Nothing to save!
-chat::web.no_thread_messages,en,metafox/chat,No thread messages,No thread messages
-chat::web.notification_duration,en,metafox/chat,Notification Duration,Notification Duration
-chat::web.notifications,en,metafox/chat,Notifications,Notifications
-chat::web.notifications_preferences,en,metafox/chat,Notifications Preferences,Notifications Preferences
-chat::web.not_logged,en,metafox/chat,Not logged,Not logged
-chat::web.no_topic_provided,en,metafox/chat,No topics are provided.,No topics are provided.
-chat::web.no_users_found,en,metafox/chat,No users are found.,No users are found.
-chat::web.no_videos_group_subtext,en,metafox/chat,Videos that you have sent in this group will appear here.,Videos that you have sent in this group will appear here.
-chat::web.no_videos_subtext,en,metafox/chat,Videos that you have exchanged with {name} will appear here,Videos that you have exchanged with {name} will appear here
-chat::web.n_people_reacted,en,metafox/chat,{n} people reacted,{n} people reacted
-chat::web.n_users,en,metafox/chat,{n} users,{n} users
+chat::web.minimize_all_boxchats_open,en,metafox/chat,Minimize all opening chat boxes,Az összes megnyitott csevegőablak minimalizálása
+chat::web.mobile_alerts,en,metafox/chat,Mobile Alerts,Mobil értesítések
+chat::web.moderator,en,metafox/chat,Moderator,Moderátor
+chat::web.more_conversations,en,metafox/chat,More Conversations,Több Beszélgetés
+chat::web.more_options,en,metafox/chat,More options,További lehetőségek
+chat::web.mute,en,metafox/chat,Mute,Némítás
+chat::web.mute_all_and_here_mentions,en,metafox/chat,Mute @all and @here mentions,Némítsa az összes @all és @here említést
+chat::web.muted,en,metafox/chat,Muted,Némítva
+chat::web.mute_room_user,en,metafox/chat,Mute,Némítás
+chat::web.my_servers,en,metafox/chat,My servers,A szervereim
+chat::web.name,en,metafox/chat,Name,Név
+chat::web.new,en,metafox/chat,New,Új
+chat::web.new_chat,en,metafox/chat,New Chat,Új Csevegés
+chat::web.new_conversation,en,metafox/chat,New Conversation,Új beszélgetés
+chat::web.new_join_code,en,metafox/chat,New join code,Új csatlakozási kód
+chat::web.new_message,en,metafox/chat,New Message,Új üzenet
+chat::web.new_password,en,metafox/chat,New Password,Új jelszó
+chat::web.new_server,en,metafox/chat,New Server,Új szerver
+chat::web.next,en,metafox/chat,Next,Következő
+chat::web.no_announcement_provided,en,metafox/chat,No announcements are provided.,Nincs bejelentés
+chat::web.no_description_provided,en,metafox/chat,No descriptions are provided.,Nincs leírás
+chat::web.no_files,en,metafox/chat,No files,Nincs fájl
+chat::web.no_files_group_subtext,en,metafox/chat,Files that you have sent in this group will appear here.,Itt megjelennek a csoportban küldött fájlok.
+chat::web.no_files_subtext,en,metafox/chat,Files that you have exchanged with {name} will appear here,Itt megjelennek a(z) {name}-mel való fájlcsere során használt fájlok.
+chat::web.no_medias,en,metafox/chat,No medias,Nincs média
+chat::web.no_medias_subtext,en,metafox/chat,Photos and Videos that you exchange with {name} will appear here,Itt jelennek meg a(z) {name}-mel cserélt fényképek és videók.
+chat::web.no_mentioned_messages,en,metafox/chat,No mentioned messages,Nincs említett üzenet
+chat::web.no_message,en,metafox/chat,No Message,Nincs üzenet
+chat::web.no_messages,en,metafox/chat,No Messages,Nincs üzenet
+chat::web.no_messages_found,en,metafox/chat,No messages are found.,Nincs találat
+chat::web.no_messages_yet,en,metafox/chat,No messages yet,Még nincs üzenet
+chat::web.no_more_conversations,en,metafox/chat,No more conversations,Nincs több beszélgetés
+chat::web.no_online_friends,en,metafox/chat,No online friends,Nincsenek online barátok
+chat::web.no_people_are_found,en,metafox/chat,No people are found.,Nincsenek talált személyek
+chat::web.no_photos_group_subtext,en,metafox/chat,Photos that you have sent in this group will appear here.,Itt jelennek meg a csoportban elküldött fényképek.
+chat::web.no_photos_subtext,en,metafox/chat,Photos that you have exchanged with {name} will appear here.,Itt jelennek meg a(z) {name}-mel cserélt fényképek.
+chat::web.no_pinned_messages,en,metafox/chat,No pinned messages,Nincs rögzített üzenet
+chat::web.no_reactions,en,metafox/chat,No Reactions,Nincsenek reakciók
+chat::web.no_read_receipts,en,metafox/chat,No Read Receipts,Nincsenek olvasási visszaigazolások
+chat::web.no_results_found,en,metafox/chat,No results are found.,Nincs találat
+chat::web.no_starred_messages,en,metafox/chat,No starred messages,Nincsenek csillagozott üzenetek
+chat::web.nothing_to_save,en,metafox/chat,Nothing to save!,Nincs menteni való!
+chat::web.no_thread_messages,en,metafox/chat,No thread messages,Nincsenek szálas üzenetek
+chat::web.notification_duration,en,metafox/chat,Notification Duration,Értesítés Időtartama
+chat::web.notifications,en,metafox/chat,Notifications,Értesítések
+chat::web.notifications_preferences,en,metafox/chat,Notifications Preferences,Értesítési beállítások
+chat::web.not_logged,en,metafox/chat,Not logged,Nincs bejelentkezve
+chat::web.no_topic_provided,en,metafox/chat,No topics are provided.,Nincs téma
+chat::web.no_users_found,en,metafox/chat,No users are found.,Nincs talált felhasználó
+chat::web.no_videos_group_subtext,en,metafox/chat,Videos that you have sent in this group will appear here.,Itt jelennek meg a csoportban elküldött videók.
+chat::web.no_videos_subtext,en,metafox/chat,Videos that you have exchanged with {name} will appear here,Itt jelennek meg a(z) {name}-mel cserélt videók.
+chat::web.n_people_reacted,en,metafox/chat,{n} people reacted,{n} ember reagált
+chat::web.n_users,en,metafox/chat,{n} users,{n} felhasználók
 chat::web.offline,en,metafox/chat,Offline,Offline
 chat::web.online,en,metafox/chat,Online,Online
-chat::web.online_friends,en,metafox/chat,Online Friends,Online Friends
-chat::web.only_authorized_users_can_write_new_messages,en,metafox/chat,Only authorized users can write new messages,Only authorized users can write new messages
-chat::web.open_emoji_selector,en,metafox/chat,Open emoji selector,Open emoji selector
-chat::web.open_in_messenger,en,metafox/chat,Open In Messenger,Open In Messenger
-chat::web.open_in_new_tab,en,metafox/chat,Open,Open
-chat::web.open_more_options,en,metafox/chat,Open more options,Open more options
-chat::web.open_source_communication,en,metafox/chat,Open Source Communication,Open Source Communication
-chat::web.owner,en,metafox/chat,Owner,Owner
-chat::web.password,en,metafox/chat,Password,Password
-chat::web.password_doesnt_match,en,metafox/chat,Password confirmation doesn't match,Password confirmation doesn't match
-chat::web.permalink,en,metafox/chat,Permalink,Permalink
-chat::web.phpfox_video_bride_cloud_server,en,metafox/chat,phpFox Video Bridge Service,phpFox Video Bridge Service
-chat::web.pick_a_contact_from_the_list_and_start_your_conversation,en,metafox/chat,Pick a contact from the list and start your conversation,Pick a contact from the list and start your conversation
-chat::web.picture,en,metafox/chat,Picture,Picture
-chat::web.pin,en,metafox/chat,Pin,Pin
-chat::web.pinned,en,metafox/chat,Pinned,Pinned
-chat::web.pinned_messages,en,metafox/chat,Pinned Messages,Pinned Messages
-chat::web.please_enter_join_code,en,metafox/chat,Please enter join code,Please enter join code
-chat::web.please_enter_your_password,en,metafox/chat,Please enter your password,Please enter your password
-chat::web.preferences_saved,en,metafox/chat,Preferences have been saved!,Preferences have been saved!
-chat::web.privacy_policy,en,metafox/chat,Privacy Policy,Privacy Policy
-chat::web.private,en,metafox/chat,Private,Private
-chat::web.profile,en,metafox/chat,Profile,Profile
-chat::web.profile_saved_successfully,en,metafox/chat,Profile was saved successfully!,Profile was saved successfully!
-chat::web.quote,en,metafox/chat,Quote,Quote
-chat::web.quote_to_user_at_timestamp,en,metafox/chat,Quoting to {user} at {time},Quoting to {user} at {time}
-chat::web.react,en,metafox/chat,React,React
-chat::web.reactions,en,metafox/chat,Reactions,Reactions
-chat::web.reactions_are_disabled,en,metafox/chat,Reactions are disabled,Reactions are disabled
-chat::web.reactions_are_enabled,en,metafox/chat,Reactions are enabled,Reactions are enabled
-chat::web.read,en,metafox/chat,Read,Read
-chat::web.read_only,en,metafox/chat,Read Only,Read Only
-chat::web.read_only_channel_description,en,metafox/chat,All members in the group can write new messages,All members in the group can write new messages
-chat::web.read_receipt,en,metafox/chat,Read Receipt,Read Receipt
-chat::web.receive_desktop_notifications,en,metafox/chat,Desktop notifications,Desktop notifications
-chat::web.receive_email_notifications,en,metafox/chat,Email Alerts,Email Alerts
-chat::web.receive_mobile_notifications,en,metafox/chat,Mobile notifications,Mobile notifications
-chat::web.receive_sound_notifications,en,metafox/chat,Notification sound on website,Notification sound on website
-chat::web.register,en,metafox/chat,Register,Register
-chat::web.remove_user,en,metafox/chat,Remove user,Remove user
-chat::web.repeat_password,en,metafox/chat,Repeat Password,Repeat Password
-chat::web.replied_on,en,metafox/chat,Replied on:,Replied on:
-chat::web.replies,en,metafox/chat,Replies,Replies
-chat::web.reply,en,metafox/chat,Reply,Reply
-chat::web.reply_to_user_at_timestamp,en,metafox/chat,Replying to {user} at {time},Replying to {user} at {time}
-chat::web.resend,en,metafox/chat,Resend,Resend
-chat::web.reset,en,metafox/chat,Reset,Reset
-chat::web.reset_password,en,metafox/chat,Reset password,Reset password
-chat::web.resetting_password,en,metafox/chat,resetting password,resetting password
-chat::web.role_of_user_was_removed,en,metafox/chat,Role {role} of {user} was removed,Role {role} of {user} was removed
-chat::web.roles,en,metafox/chat,Roles,Roles
-chat::web.room_actions,en,metafox/chat,Group actions,Group actions
-chat::web.room_files,en,metafox/chat,Group Files,Group Files
-chat::web.room_info,en,metafox/chat,Group Info,Group Info
-chat::web.room_info_edit,en,metafox/chat,Group Info Edit,Group Info Edit
-chat::web.room_members,en,metafox/chat,Group Members,Group Members
-chat::web.saving_preferences,en,metafox/chat,Saving preferences,Saving preferences
-chat::web.saving_profile,en,metafox/chat,Saving profile,Saving profile
-chat::web.saving_settings,en,metafox/chat,Saving settings,Saving settings
-chat::web.search,en,metafox/chat,Search,Search
-chat::web.search_archived_group,en,metafox/chat,Search archived group,Search archived group
-chat::web.search_by,en,metafox/chat,Search by,Search by
-chat::web.search_colon,en,metafox/chat,Search:,Search:
-chat::web.search_dot,en,metafox/chat,Search ...,Search ...
-chat::web.search_friend,en,metafox/chat,Search friend,Search friend
-chat::web.search_friends,en,metafox/chat,Search friends,Search friends
-chat::web.search_friends_or_groups,en,metafox/chat,Search friends or groups,Search friends or groups
-chat::web.search_global_users,en,metafox/chat,Search for global users,Search for global users
-chat::web.search_global_users_description,en,metafox/chat,"If you turn-on, you can search for any user from others companies or servers.","If you turn-on, you can search for any user from others companies or servers."
-chat::web.search_messages,en,metafox/chat,Search Messages,Search Messages
-chat::web.search_messages_dots,en,metafox/chat,Search messages ...,Search messages ...
-chat::web.search_people,en,metafox/chat,Search people,Search people
-chat::web.search_people_group,en,metafox/chat,Search people or groups,Search people or groups
-chat::web.search_this_conversation,en,metafox/chat,Search this conversation,Search this conversation
-chat::web.search_users_dots,en,metafox/chat,Search users ...,Search users ...
-chat::web.seen_by_user_at_time,en,metafox/chat,Seen by {user} at {time},Seen by {user} at {time}
-chat::web.seen_users,en,metafox/chat,Seen users,Seen users
-chat::web.select_all,en,metafox/chat,Select all,Select all
-chat::web.select_avatar,en,metafox/chat,Select Avatar,Select Avatar
-chat::web.select_friend,en,metafox/chat,Select friend,Select friend
-chat::web.select_users,en,metafox/chat,Select Users,Select Users
-chat::web.send,en,metafox/chat,Send,Send
-chat::web.send_audio_message,en,metafox/chat,Send audio message,Send audio message
-chat::web.send_crash_report,en,metafox/chat,Send crash report,Send crash report
-chat::web.send_message,en,metafox/chat,Send message,Send message
-chat::web.send_photo,en,metafox/chat,Send photo,Send photo
-chat::web.sent_a_file,en,metafox/chat,Sent a file,Sent a file
-chat::web.sent_an_attachment,en,metafox/chat,Sent an attachment,Sent an attachment
-chat::web.sent_a_photo,en,metafox/chat,Sent a photo,Sent a photo
-chat::web.sent_multiple_photos,en,metafox/chat,Sent multiple photos,Sent multiple photos
-chat::web.server,en,metafox/chat,Server,Server
-chat::web.servers,en,metafox/chat,Servers,Servers
-chat::web.server_version,en,metafox/chat,Server version: {version},Server version: {version}
-chat::web.set_as_role,en,metafox/chat,Set as {role},Set as {role}
-chat::web.set_room_leader,en,metafox/chat,Set as Leader,Set as Leader
-chat::web.set_room_moderator,en,metafox/chat,Set as Moderator,Set as Moderator
-chat::web.set_room_owner,en,metafox/chat,Set as Owner,Set as Owner
-chat::web.settings,en,metafox/chat,Settings,Settings
-chat::web.settings_successfully_changed,en,metafox/chat,Settings have been successfully changed!,Settings have been successfully changed!
-chat::web.set_username_subtitle,en,metafox/chat,Specify your username so others can mention you in messages.,Specify your username so others can mention you in messages.
-chat::web.share,en,metafox/chat,Share,Share
-chat::web.share_this_app,en,metafox/chat,Share this app,Share this app
-chat::web.show_counter,en,metafox/chat,Show counter,Show counter
-chat::web.sign_in_your_server,en,metafox/chat,Sign in your server,Sign in your server
-chat::web.sign_up,en,metafox/chat,Sign Up,Sign Up
-chat::web.some_field_is_invalid_or_empty,en,metafox/chat,Some fields are invalid or empty.,Some fields are invalid or empty.
-chat::web.sorting_by,en,metafox/chat,Sorting by {key},Sorting by {key}
-chat::web.sound,en,metafox/chat,Sound,Sound
-chat::web.star,en,metafox/chat,Star,Star
-chat::web.star_group,en,metafox/chat,Star group,Star group
-chat::web.star_messages_successfully,en,metafox/chat,Starred messages successfully.,Starred messages successfully.
-chat::web.starred,en,metafox/chat,Starred,Starred
-chat::web.starred_messages,en,metafox/chat,Starred Messages,Starred Messages
-chat::web.star_room,en,metafox/chat,Star group,Star group
-chat::web.started_discussion,en,metafox/chat,Started a discussion:,Started a discussion:
-chat::web.start_of_conversation,en,metafox/chat,Start of conversation,Start of conversation
-chat::web.submit,en,metafox/chat,Submit,Submit
-chat::web.suggested,en,metafox/chat,Suggested,Suggested
-chat::web.sync_settings_and_permissions,en,metafox/chat,Sync Settings & Permissions,Sync Settings & Permissions
-chat::web.sync_users,en,metafox/chat,Sync Users,Sync Users
-chat::web.take_a_photo,en,metafox/chat,Take a photo,Take a photo
-chat::web.tap_to_change_status,en,metafox/chat,Tap to change status,Tap to change status
-chat::web.tap_to_view_servers_list,en,metafox/chat,Tap to view servers list,Tap to view servers list
-chat::web.terms_of_service,en,metafox/chat,Terms of Service,Terms of Service
-chat::web.theme,en,metafox/chat,Theme,Theme
-chat::web.there_was_an_error_while_action,en,metafox/chat,There was an error while {action}!,There was an error while {action}!
-chat::web.the_url_is_invalid,en,metafox/chat,"The URL you entered is invalid. Check it and try again, please!","The URL you entered is invalid. Check it and try again, please!"
-chat::web.thread,en,metafox/chat,Thread,Thread
-chat::web.threads,en,metafox/chat,Threads,Threads
-chat::web.timezone,en,metafox/chat,Timezone,Timezone
-chat::web.title_archive_chat,en,metafox/chat,Archive group chat?,Archive group chat?
-chat::web.to_colon,en,metafox/chat,To:,To:
-chat::web.toggle_search,en,metafox/chat,Toggle Search,Toggle Search
-chat::web.topic,en,metafox/chat,Topic,Topic
+chat::web.online_friends,en,metafox/chat,Online Friends,Online barátok
+chat::web.only_authorized_users_can_write_new_messages,en,metafox/chat,Only authorized users can write new messages,Csak engedélyezett felhasználók írhatnak új üzeneteket
+chat::web.open_emoji_selector,en,metafox/chat,Open emoji selector,Nyisd ki az emoji-választót
+chat::web.open_in_messenger,en,metafox/chat,Open In Messenger,Megnyitás a Messengerben
+chat::web.open_in_new_tab,en,metafox/chat,Open,Megnyitás
+chat::web.open_more_options,en,metafox/chat,Open more options,További lehetőségek megnyitása
+chat::web.open_source_communication,en,metafox/chat,Open Source Communication,Nyílt forráskódú kommunikáció
+chat::web.owner,en,metafox/chat,Owner,Tulajdonos
+chat::web.password,en,metafox/chat,Password,Jelszó
+chat::web.password_doesnt_match,en,metafox/chat,Password confirmation doesn't match,A jelszó megerősítése nem egyezik
+chat::web.permalink,en,metafox/chat,Permalink,Állandó link
+chat::web.phpfox_video_bride_cloud_server,en,metafox/chat,phpFox Video Bridge Service,phpFox Video Híd Szolgáltatás
+chat::web.pick_a_contact_from_the_list_and_start_your_conversation,en,metafox/chat,Pick a contact from the list and start your conversation,"Válasszon egy kapcsolatot a listából, és kezdje el a beszélgetést"
+chat::web.picture,en,metafox/chat,Picture,Kép
+chat::web.pin,en,metafox/chat,Pin,Rögzít
+chat::web.pinned,en,metafox/chat,Pinned,Rögzítve
+chat::web.pinned_messages,en,metafox/chat,Pinned Messages,Rögzített üzenetek
+chat::web.please_enter_join_code,en,metafox/chat,Please enter join code,"Kérjük, írja be a csatlakozási kódot"
+chat::web.please_enter_your_password,en,metafox/chat,Please enter your password,"Kérjük, adja meg jelszavát"
+chat::web.preferences_saved,en,metafox/chat,Preferences have been saved!,A beállítások mentve lettek!
+chat::web.privacy_policy,en,metafox/chat,Privacy Policy,Adatvédelmi irányelv
+chat::web.private,en,metafox/chat,Private,Magán
+chat::web.profile,en,metafox/chat,Profile,Profil
+chat::web.profile_saved_successfully,en,metafox/chat,Profile was saved successfully!,A profil sikeresen mentve!
+chat::web.quote,en,metafox/chat,Quote,Idézet
+chat::web.quote_to_user_at_timestamp,en,metafox/chat,Quoting to {user} at {time},"Idézés {user}-től, {time}-kor"
+chat::web.react,en,metafox/chat,React,Reakció
+chat::web.reactions,en,metafox/chat,Reactions,Reakciók
+chat::web.reactions_are_disabled,en,metafox/chat,Reactions are disabled,A reakciók letiltva vannak
+chat::web.reactions_are_enabled,en,metafox/chat,Reactions are enabled,A reakciók engedélyezve vannak
+chat::web.read,en,metafox/chat,Read,Olvasva
+chat::web.read_only,en,metafox/chat,Read Only,Csak olvasható
+chat::web.read_only_channel_description,en,metafox/chat,All members in the group can write new messages,Az összes csoporttag új üzeneteket írhat
+chat::web.read_receipt,en,metafox/chat,Read Receipt,Olvasási visszaigazolás
+chat::web.receive_desktop_notifications,en,metafox/chat,Desktop notifications,Asztali értesítések
+chat::web.receive_email_notifications,en,metafox/chat,Email Alerts,Email értesítések
+chat::web.receive_mobile_notifications,en,metafox/chat,Mobile notifications,Mobil értesítések
+chat::web.receive_sound_notifications,en,metafox/chat,Notification sound on website,Értesítési hang a webhelyen
+chat::web.register,en,metafox/chat,Register,Regisztráció
+chat::web.remove_user,en,metafox/chat,Remove user,Felhasználó eltávolítása
+chat::web.repeat_password,en,metafox/chat,Repeat Password,Jelszó megismétlése
+chat::web.replied_on,en,metafox/chat,Replied on:,Válaszolt:
+chat::web.replies,en,metafox/chat,Replies,Válaszok
+chat::web.reply,en,metafox/chat,Reply,Válasz
+chat::web.reply_to_user_at_timestamp,en,metafox/chat,Replying to {user} at {time},Válasz erre: {user} ekkor: {time}
+chat::web.resend,en,metafox/chat,Resend,Újraküldés
+chat::web.reset,en,metafox/chat,Reset,Visszaállítás
+chat::web.reset_password,en,metafox/chat,Reset password,Jelszó visszaállítása
+chat::web.resetting_password,en,metafox/chat,resetting password,jelszó visszaállítása
+chat::web.role_of_user_was_removed,en,metafox/chat,Role {role} of {user} was removed,{role} szerepkör eltávolítva: {user}
+chat::web.roles,en,metafox/chat,Roles,Szerepkörök
+chat::web.room_actions,en,metafox/chat,Group actions,Csoport műveletek
+chat::web.room_files,en,metafox/chat,Group Files,Csoport fájlok
+chat::web.room_info,en,metafox/chat,Group Info,Csoport információ
+chat::web.room_info_edit,en,metafox/chat,Group Info Edit,Csoport információ szerkesztése
+chat::web.room_members,en,metafox/chat,Group Members,Csoport tagjai
+chat::web.saving_preferences,en,metafox/chat,Saving preferences,Beállítások mentése
+chat::web.saving_profile,en,metafox/chat,Saving profile,Beállítások profil mentése
+chat::web.saving_settings,en,metafox/chat,Saving settings,Beállítások mentése
+chat::web.search,en,metafox/chat,Search,Keresés
+chat::web.search_archived_group,en,metafox/chat,Search archived group,Keresés archivált csoportban
+chat::web.search_by,en,metafox/chat,Search by,Keresés által
+chat::web.search_colon,en,metafox/chat,Search:,Keresés:
+chat::web.search_dot,en,metafox/chat,Search ...,Keresés ...
+chat::web.search_friend,en,metafox/chat,Search friend,Barát keresése
+chat::web.search_friends,en,metafox/chat,Search friends,Barátok keresése
+chat::web.search_friends_or_groups,en,metafox/chat,Search friends or groups,Barátok vagy csoportok keresése
+chat::web.search_global_users,en,metafox/chat,Search for global users,Keresés globális felhasználók között
+chat::web.search_global_users_description,en,metafox/chat,"If you turn-on, you can search for any user from others companies or servers.","Ha bekapcsolod, kereshetsz bármilyen felhasználót más cégek vagy szerverek között."
+chat::web.search_messages,en,metafox/chat,Search Messages,Üzenetek keresése
+chat::web.search_messages_dots,en,metafox/chat,Search messages ...,Üzenetek keresése ...
+chat::web.search_people,en,metafox/chat,Search people,Emberek keresése
+chat::web.search_people_group,en,metafox/chat,Search people or groups,Emberek vagy csoportok keresése
+chat::web.search_this_conversation,en,metafox/chat,Search this conversation,Keresés ebben a beszélgetésben
+chat::web.search_users_dots,en,metafox/chat,Search users ...,Felhasználók keresése ...
+chat::web.seen_by_user_at_time,en,metafox/chat,Seen by {user} at {time},Látva {user} ekkor: {time}
+chat::web.seen_users,en,metafox/chat,Seen users,Látott felhasználók
+chat::web.select_all,en,metafox/chat,Select all,Összes kiválasztása
+chat::web.select_avatar,en,metafox/chat,Select Avatar,Profilkép kiválasztása
+chat::web.select_friend,en,metafox/chat,Select friend,Barát kiválasztása
+chat::web.select_users,en,metafox/chat,Select Users,Felhasználók kiválasztása
+chat::web.send,en,metafox/chat,Send,Küldés
+chat::web.send_audio_message,en,metafox/chat,Send audio message,Hangüzenet küldése
+chat::web.send_crash_report,en,metafox/chat,Send crash report,Összeomlás jelentése
+chat::web.send_message,en,metafox/chat,Send message,Üzenet küldése
+chat::web.send_photo,en,metafox/chat,Send photo,Fénykép küldése
+chat::web.sent_a_file,en,metafox/chat,Sent a file,Fájl küldése
+chat::web.sent_an_attachment,en,metafox/chat,Sent an attachment,Fájl csatolása
+chat::web.sent_a_photo,en,metafox/chat,Sent a photo,Fénykép küldése
+chat::web.sent_multiple_photos,en,metafox/chat,Sent multiple photos,Több fénykép küldése
+chat::web.server,en,metafox/chat,Server,Szerver
+chat::web.servers,en,metafox/chat,Servers,Szerverek
+chat::web.server_version,en,metafox/chat,Server version: {version},Szerver verzió: {version}
+chat::web.set_as_role,en,metafox/chat,Set as {role},Beállítás {role}ként
+chat::web.set_room_leader,en,metafox/chat,Set as Leader,Beállítás vezetőként
+chat::web.set_room_moderator,en,metafox/chat,Set as Moderator,Beállítás moderátorként
+chat::web.set_room_owner,en,metafox/chat,Set as Owner,Beállítás tulajdonosként
+chat::web.settings,en,metafox/chat,Settings,Beállítások
+chat::web.settings_successfully_changed,en,metafox/chat,Settings have been successfully changed!,Beállítások sikeresen megváltoztatva!
+chat::web.set_username_subtitle,en,metafox/chat,Specify your username so others can mention you in messages.,"Add meg a felhasználóneved, hogy mások említhessenek üzenetekben."
+chat::web.share,en,metafox/chat,Share,Megosztás
+chat::web.share_this_app,en,metafox/chat,Share this app,Alkalmazás megosztása
+chat::web.show_counter,en,metafox/chat,Show counter,Szám kijelzése
+chat::web.sign_in_your_server,en,metafox/chat,Sign in your server,Jelentkezzen be a szerverre
+chat::web.sign_up,en,metafox/chat,Sign Up,Regisztráció
+chat::web.some_field_is_invalid_or_empty,en,metafox/chat,Some fields are invalid or empty.,Néhány mező érvénytelen vagy üres.
+chat::web.sorting_by,en,metafox/chat,Sorting by {key},Rendezés {key} szerint
+chat::web.sound,en,metafox/chat,Sound,Hang
+chat::web.star,en,metafox/chat,Star,Csillag
+chat::web.star_group,en,metafox/chat,Star group,Csillagozott csoport
+chat::web.star_messages_successfully,en,metafox/chat,Starred messages successfully.,Csillagozott üzenetek sikeresen.
+chat::web.starred,en,metafox/chat,Starred,Csillagozott
+chat::web.starred_messages,en,metafox/chat,Starred Messages,Csillagozott üzenetek
+chat::web.star_room,en,metafox/chat,Star group,Csillagozott csoport
+chat::web.started_discussion,en,metafox/chat,Started a discussion:,Beszélgetés kezdése:
+chat::web.start_of_conversation,en,metafox/chat,Start of conversation,Beszélgetés kezdete
+chat::web.submit,en,metafox/chat,Submit,Beküldés
+chat::web.suggested,en,metafox/chat,Suggested,Javasolt
+chat::web.sync_settings_and_permissions,en,metafox/chat,Sync Settings & Permissions,Beállítások és engedélyek szinkronizálása
+chat::web.sync_users,en,metafox/chat,Sync Users,Felhasználók szinkronizálása
+chat::web.take_a_photo,en,metafox/chat,Take a photo,Készíts egy fényképet
+chat::web.tap_to_change_status,en,metafox/chat,Tap to change status,Koppints az állapot megváltoztatásához
+chat::web.tap_to_view_servers_list,en,metafox/chat,Tap to view servers list,Koppints a szerverek listájának megtekintéséhez
+chat::web.terms_of_service,en,metafox/chat,Terms of Service,Felhasználási feltételek
+chat::web.theme,en,metafox/chat,Theme,Téma
+chat::web.there_was_an_error_while_action,en,metafox/chat,There was an error while {action}!,Hiba történt {action} közben!
+chat::web.the_url_is_invalid,en,metafox/chat,"The URL you entered is invalid. Check it and try again, please!","A megadott URL érvénytelen. Kérjük, ellenőrizze, és próbálja újra!"
+chat::web.thread,en,metafox/chat,Thread,Szál
+chat::web.threads,en,metafox/chat,Threads,Szálak
+chat::web.timezone,en,metafox/chat,Timezone,Időzóna
+chat::web.title_archive_chat,en,metafox/chat,Archive group chat?,Archiváljam a csoport beszélgetését?
+chat::web.to_colon,en,metafox/chat,To:,Címzett:
+chat::web.toggle_search,en,metafox/chat,Toggle Search,Keresés bekapcsolása
+chat::web.topic,en,metafox/chat,Topic,Téma
 chat::web.total_user_member,en,metafox/chat,"{ value, plural, =1{# member} other{# members} }","{ value, plural, =1{# member} other{# members} }"
-chat::web.translate,en,metafox/chat,Translate,Translate
-chat::web.try_again,en,metafox/chat,Try again,Try again
-chat::web.two_factor_authentication,en,metafox/chat,Two-factor Authentication,Two-factor Authentication
-chat::web.type_a_message,en,metafox/chat,Type a message,Type a message
-chat::web.type_a_message_or__name,en,metafox/chat,Type a message or @,Type a message or @
-chat::web.type_name_start_new_conversation,en,metafox/chat,Type a name here to start a new conversation,Type a name here to start a new conversation
-chat::web.unarchive,en,metafox/chat,Unarchive,Unarchive
-chat::web.unarchive_group_successfully,en,metafox/chat,Unarchived group successfully.,Unarchived group successfully.
-chat::web.unarchive_room_description,en,metafox/chat,Are you sure you want to unarchive this discussion?,Are you sure you want to unarchive this discussion?
-chat::web.unblock_chat,en,metafox/chat,Unblock Chat,Unblock Chat
-chat::web.unblock_user,en,metafox/chat,Unblock user,Unblock user
-chat::web.unblock_user_successfully,en,metafox/chat,Unblocked user successfully.,Unblocked user successfully.
-chat::web.undo_pinned_messages,en,metafox/chat,Undo pinned messages,Undo pinned messages
-chat::web.undo_starred_messages,en,metafox/chat,Undo starred messages,Undo starred messages
-chat::web.unfavorite,en,metafox/chat,Unfavorite,Unfavorite
-chat::web.unfavorite_successfully,en,metafox/chat,Unfavorited successfully.,Unfavorited successfully.
-chat::web.unfollowed_thread,en,metafox/chat,Unfollowed thread,Unfollowed thread
-chat::web.unhide,en,metafox/chat,Unhide,Unhide
-chat::web.unmute,en,metafox/chat,Unmute,Unmute
-chat::web.unmuted,en,metafox/chat,unmuted,unmuted
-chat::web.unmute_room_user,en,metafox/chat,Un-mute,Un-mute
-chat::web.unpin,en,metafox/chat,Unpin,Unpin
-chat::web.unread,en,metafox/chat,Unread,Unread
-chat::web.unread_messages,en,metafox/chat,Unread messages,Unread messages
-chat::web.unread_on_top,en,metafox/chat,Unread on top,Unread on top
-chat::web.unstar,en,metafox/chat,Unstar,Unstar
-chat::web.updating,en,metafox/chat,Updating...,Updating...
-chat::web.upload_file_question_mark,en,metafox/chat,Upload file?,Upload file?
-chat::web.uploading,en,metafox/chat,Uploading,Uploading
-chat::web.uploading_name,en,metafox/chat,Uploading {name},Uploading {name}
-chat::web.uploading_n_attachments,en,metafox/chat,Uploading {count} attachments,Uploading {count} attachments
-chat::web.user_added_by,en,metafox/chat,User {userAdded} added by {userBy},User {userAdded} added by {userBy}
-chat::web.user_has_been_key,en,metafox/chat,User has been {key}!,User has been {key}!
-chat::web.user_is_already_in_here,en,metafox/chat,{user} is already in here,{user} is already in here
-chat::web.user_is_no_longer_role_by_,en,metafox/chat,{user} is no longer {role} by {userBy},{user} is no longer {role} by {userBy}
-chat::web.user_message_is_removed,en,metafox/chat,{user} deleted a message,{user} deleted a message
-chat::web.user_muted_by,en,metafox/chat,User {userMuted} was muted by {userBy},User {userMuted} was muted by {userBy}
-chat::web.username,en,metafox/chat,Username,Username
-chat::web.username_deleted_a_message,en,metafox/chat,{username} deleted a message,{username} deleted a message
-chat::web.username_is_empty,en,metafox/chat,Username is empty,Username is empty
-chat::web.username_or_email,en,metafox/chat,Username or email,Username or email
-chat::web.users,en,metafox/chat,Users,Users
-chat::web.user_sent_an_attachment,en,metafox/chat,{user} sent an attachment,{user} sent an attachment
-chat::web.user_sent_n_attachments,en,metafox/chat,"{user} sent {count, plural, =1{# attachment} other {# attachments}}","{user} sent {count, plural, =1{# attachment} other {# attachments}}"
-chat::web.user_unmuted_by,en,metafox/chat,User {userUnmuted} was unmuted by {userBy},User {userUnmuted} was unmuted by {userBy}
-chat::web.ut,en,metafox/chat,{user} joined conversation.,{user} joined conversation.
-chat::web.validating,en,metafox/chat,Validating,Validating
-chat::web.version_no,en,metafox/chat,Version: {version},Version: {version}
-chat::web.video_bridge_free_public_server,en,metafox/chat,Free Video Bridge Service,Free Video Bridge Service
-chat::web.view_all_messages,en,metafox/chat,View all Messages,View all Messages
-chat::web.view_main_profile,en,metafox/chat,View main profile,View main profile
-chat::web.view_original,en,metafox/chat,View Original,View Original
-chat::web.warning_upload_limit_multi_image,en,metafox/chat,"{numberFile} files could not be uploaded because one or more of them exceed the maximum file size, {photoMaxSize, select, 0{unlimited} other{{photoMaxSize}}} for photo files.","{numberFile} files could not be uploaded because one or more of them exceed the maximum file size, {photoMaxSize, select, 0{unlimited} other{{photoMaxSize}}} for photo files."
-chat::web.welcome,en,metafox/chat,Welcome,Welcome
-chat::web.whats_your_2fa,en,metafox/chat,What's your 2FA code?,What's your 2FA code?
-chat::web.write_message,en,metafox/chat,Write message...,Write message...
-chat::web.write_new_message,en,metafox/chat,Write new message...,Write new message...
-chat::web.yes_action_it,en,metafox/chat,"Yes, {action} it!","Yes, {action} it!"
-chat::web.yesterday,en,metafox/chat,Yesterday,Yesterday
-chat::web.you,en,metafox/chat,You,You
-chat::web.you_are_in_preview_mode,en,metafox/chat,You are in preview mode,You are in preview mode
-chat::web.you_are_offline,en,metafox/chat,You are offline,You are offline
-chat::web.you_can_not_send_message_in_this_conversation,en,metafox/chat,You can not send message in this conversation,You can not send message in this conversation
-chat::web.you_can_search_using_regexp_eg,en,metafox/chat,You can use RegExp. e.g. `/^text$/i`,You can use RegExp. e.g. `/^text$/i`
-chat::web.you_colon,en,metafox/chat,You:,You:
-chat::web.you_deleted_a_message,en,metafox/chat,You deleted a message,You deleted a message
-chat::web.your_build_video_bride_server,en,metafox/chat,Build Yourself Video Service,Build Yourself Video Service
-chat::web.your_message,en,metafox/chat,Your message...,Your message...
-chat::web.you_were_mentioned,en,metafox/chat,You were mentioned,You were mentioned
-chat::web.you_will_not_be_able_to_recover_this_message,en,metafox/chat,You will not be able to recover this message!,You will not be able to recover this message!
+chat::web.translate,en,metafox/chat,Translate,Fordítás
+chat::web.try_again,en,metafox/chat,Try again,Próbáld újra
+chat::web.two_factor_authentication,en,metafox/chat,Two-factor Authentication,Kétlépcsős hitelesítés
+chat::web.type_a_message,en,metafox/chat,Type a message,Írj üzenetet
+chat::web.type_a_message_or__name,en,metafox/chat,Type a message or @,Írj üzenetet vagy @-ot
+chat::web.type_name_start_new_conversation,en,metafox/chat,Type a name here to start a new conversation,Írj egy nevet ide a beszélgetés megkezdéséhez
+chat::web.unarchive,en,metafox/chat,Unarchive,Archiválás feloldása
+chat::web.unarchive_group_successfully,en,metafox/chat,Unarchived group successfully.,A csoport archiválása sikeresen megszűnt.
+chat::web.unarchive_room_description,en,metafox/chat,Are you sure you want to unarchive this discussion?,Biztosan fel akarod oldani ezt a beszélgetést?
+chat::web.unblock_chat,en,metafox/chat,Unblock Chat,Chat feloldása
+chat::web.unblock_user,en,metafox/chat,Unblock user,Felhasználó feloldása
+chat::web.unblock_user_successfully,en,metafox/chat,Unblocked user successfully.,Feloldás sikeres.
+chat::web.undo_pinned_messages,en,metafox/chat,Undo pinned messages,Kitűzött üzenetek visszavonása
+chat::web.undo_starred_messages,en,metafox/chat,Undo starred messages,Kitűzött üzenetek visszavonása
+chat::web.unfavorite,en,metafox/chat,Unfavorite,Kedvenc törlése
+chat::web.unfavorite_successfully,en,metafox/chat,Unfavorited successfully.,Kedvenc sikeresen törölve.
+chat::web.unfollowed_thread,en,metafox/chat,Unfollowed thread,Szál követés megszűnt
+chat::web.unhide,en,metafox/chat,Unhide,Feltárás
+chat::web.unmute,en,metafox/chat,Unmute,Némítás feloldása
+chat::web.unmuted,en,metafox/chat,unmuted,Némítás feloldva
+chat::web.unmute_room_user,en,metafox/chat,Un-mute,Némítás feloldása
+chat::web.unpin,en,metafox/chat,Unpin,Kitűzés feloldása
+chat::web.unread,en,metafox/chat,Unread,Olvasatlan
+chat::web.unread_messages,en,metafox/chat,Unread messages,Olvasatlan üzenetek
+chat::web.unread_on_top,en,metafox/chat,Unread on top,Olvasatlan felül
+chat::web.unstar,en,metafox/chat,Unstar,Csillag megszűnt
+chat::web.updating,en,metafox/chat,Updating...,Frissítés...
+chat::web.upload_file_question_mark,en,metafox/chat,Upload file?,Feltöltés fájlt?
+chat::web.uploading,en,metafox/chat,Uploading,Feltöltés
+chat::web.uploading_name,en,metafox/chat,Uploading {name},Feltöltés: {name}
+chat::web.uploading_n_attachments,en,metafox/chat,Uploading {count} attachments,Feltöltés: {count} melléklet
+chat::web.user_added_by,en,metafox/chat,User {userAdded} added by {userBy},{userAdded} hozzáadva {userBy} által
+chat::web.user_has_been_key,en,metafox/chat,User has been {key}!,A felhasználó {key}!
+chat::web.user_is_already_in_here,en,metafox/chat,{user} is already in here,{user} már itt van
+chat::web.user_is_no_longer_role_by_,en,metafox/chat,{user} is no longer {role} by {userBy},{user} többé nem {role} {userBy} által
+chat::web.user_message_is_removed,en,metafox/chat,{user} deleted a message,{user} törölt egy üzenetet
+chat::web.user_muted_by,en,metafox/chat,User {userMuted} was muted by {userBy},{userMuted} felhasználót némította {userBy}
+chat::web.username,en,metafox/chat,Username,Felhasználónév
+chat::web.username_deleted_a_message,en,metafox/chat,{username} deleted a message,{username} törölt egy üzenetet
+chat::web.username_is_empty,en,metafox/chat,Username is empty,A felhasználónév üres
+chat::web.username_or_email,en,metafox/chat,Username or email,Felhasználónév vagy email
+chat::web.users,en,metafox/chat,Users,Felhasználók
+chat::web.user_sent_an_attachment,en,metafox/chat,{user} sent an attachment,{user} csatolmányt küldött
+chat::web.user_sent_n_attachments,en,metafox/chat,"{user} sent {count, plural, =1{# attachment} other {# attachments}}","{user} küldött {count, plural, =1{# attachment} other {# attachments}}"
+chat::web.user_unmuted_by,en,metafox/chat,User {userUnmuted} was unmuted by {userBy},{userUnmuted} felhasználót feloldotta {userBy}
+chat::web.ut,en,metafox/chat,{user} joined conversation.,{user} csatlakozott a beszélgetéshez.
+chat::web.validating,en,metafox/chat,Validating,Ellenőrzés...
+chat::web.version_no,en,metafox/chat,Version: {version},Verzió: {version}
+chat::web.video_bridge_free_public_server,en,metafox/chat,Free Video Bridge Service,Ingyenes videó híd szolgáltatás
+chat::web.view_all_messages,en,metafox/chat,View all Messages,Összes üzenet megtekintése
+chat::web.view_main_profile,en,metafox/chat,View main profile,Fő profil megtekintése
+chat::web.view_original,en,metafox/chat,View Original,Eredeti megtekintése
+chat::web.warning_upload_limit_multi_image,en,metafox/chat,"{numberFile} files could not be uploaded because one or more of them exceed the maximum file size, {photoMaxSize, select, 0{unlimited} other{{photoMaxSize}}} for photo files.","{numberFile} fájlt nem sikerült feltölteni, mert egy vagy több túllépte a maximális fájlméretet,  {photoMaxSize, select, 0{unlimited} other{{photoMaxSize}}} a fényképfájlokra."
+chat::web.welcome,en,metafox/chat,Welcome,Üdvözöljük
+chat::web.whats_your_2fa,en,metafox/chat,What's your 2FA code?,Mi a 2FA kódod?
+chat::web.write_message,en,metafox/chat,Write message...,Írj üzenetet...
+chat::web.write_new_message,en,metafox/chat,Write new message...,Írj új üzenetet...
+chat::web.yes_action_it,en,metafox/chat,"Yes, {action} it!","Igen, {action}!"
+chat::web.yesterday,en,metafox/chat,Yesterday,Tegnap
+chat::web.you,en,metafox/chat,You,Te
+chat::web.you_are_in_preview_mode,en,metafox/chat,You are in preview mode,Előnézeti módban vagy
+chat::web.you_are_offline,en,metafox/chat,You are offline,Offline vagy
+chat::web.you_can_not_send_message_in_this_conversation,en,metafox/chat,You can not send message in this conversation,Nem tudsz üzenetet küldeni ebben a beszélgetésben
+chat::web.you_can_search_using_regexp_eg,en,metafox/chat,You can use RegExp. e.g. `/^text$/i`,"Reguláris kifejezést használhatsz, például `/^text$/i`"
+chat::web.you_colon,en,metafox/chat,You:,Te:
+chat::web.you_deleted_a_message,en,metafox/chat,You deleted a message,Töröltél egy üzenetet
+chat::web.your_build_video_bride_server,en,metafox/chat,Build Yourself Video Service,Építs magadnak videószolgáltatást
+chat::web.your_message,en,metafox/chat,Your message...,Az üzeneted...
+chat::web.you_were_mentioned,en,metafox/chat,You were mentioned,Megemlítettek
+chat::web.you_will_not_be_able_to_recover_this_message,en,metafox/chat,You will not be able to recover this message!,Nem leszel képes visszaállítani ezt az üzenetet!
 comment::admin.comment_hash_check,en,metafox/comment,Comment Hash Check,Comment Hash Check
 comment::admin.comment_hash_check_description,en,metafox/comment,"If enabled this will check if the last X comments added in the last Y minutes are identical to the comment being added.
 Notice: X & Y are settings that can be changed. X = Comment Hash Check Limit. Y = Comment Hash Check Period.","If enabled this will check if the last X comments added in the last Y minutes are identical to the comment being added.
