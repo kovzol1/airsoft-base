@@ -615,15 +615,15 @@ activitypoint::web.current_points,en,metafox/activity-point,Current Points,Jelen
 activitypoint::web.current_points_description,en,metafox/activity-point,"The balance of points that allows you to purchase items, gift points to friends, and convert them into E-Wallet balance.","Az a pontegyenleg, amely lehetővé teszi az elemek vásárlását, pontok ajándékozását barátoknak, és azokat E-pénzegyenleggé való átváltását."
 activitypoint::web.date,en,metafox/activity-point,Date,Dátum
 activitypoint::web.earned_points,en,metafox/activity-point,Earned Points,Elért pontok
-activitypoint::web.earn_more_points,en,metafox/activity-point,Earn More Points,Pontok megszerzése
-activitypoint::web.getting_started,en,metafox/activity-point,Getting Started,Elkezdés
-activitypoint::web.getting_started_description,en,metafox/activity-point,Find out how to earn points in the community by doing very regular activities. You can also purchase point packages and gift points away to your friends.,"Tudj meg, hogyan szerezhetsz pontokat a közösségben a rendkívül szokványos tevékenységek elvégzésével. Vásárolhatsz pontcsomagokat és ajándékozhatsz pontokat barátaidnak."
+activitypoint::web.earn_more_points,en,metafox/activity-point,Earn More Points,További pontok szerzése
+activitypoint::web.getting_started,en,metafox/activity-point,Getting Started,Hogyan kezd el
+activitypoint::web.getting_started_description,en,metafox/activity-point,Find out how to earn points in the community by doing very regular activities. You can also purchase point packages and gift points away to your friends.,"Tudd meg hogyan szerezhetsz pontokat a közösségben, tevékenységek elvégzésével. Vásárolhatsz pontcsomagokat és ajándékozhatsz pontokat barátaidnak."
 activitypoint::web.gift_points,en,metafox/activity-point,Gift Points,Pontok ajándékozása
 activitypoint::web.how_to_earn,en,metafox/activity-point,How To Earn,Hogyan szerezhetek pontokat?
 activitypoint::web.how_to_earns,en,metafox/activity-point,How To Earns,Hogyan szerez pontokat
 activitypoint::web.id,en,metafox/activity-point,ID,ID
 activitypoint::web.max_earned_points,en,metafox/activity-point,Max Earned Points,Maximálisan elérhető pontok
-activitypoint::web.no_package_found,en,metafox/activity-point,No packages are found.,Nincsenek csomagok találhatók.
+activitypoint::web.no_package_found,en,metafox/activity-point,No packages are found.,Jelenleg nincsennek pontcsomagok.
 activitypoint::web.package_name,en,metafox/activity-point,Package Name,Csomagnév
 activitypoint::web.package_transactions,en,metafox/activity-point,Package Transactions,Csomag tranzakciók
 activitypoint::web.period_day,en,metafox/activity-point,Period (days),Időszak (napok)
@@ -1825,7 +1825,7 @@ chat::web.threads,en,metafox/chat,Threads,Szálak
 chat::web.timezone,en,metafox/chat,Timezone,Időzóna
 chat::web.title_archive_chat,en,metafox/chat,Archive group chat?,Archiváljam a csoport beszélgetését?
 chat::web.to_colon,en,metafox/chat,To:,Címzett:
-chat::web.toggle_search,en,metafox/chat,Toggle Search,Keresés bekapcsolása
+chat::web.toggle_search,en,metafox/chat,Toggle Search,Keresés a csevegésben
 chat::web.topic,en,metafox/chat,Topic,Téma
 chat::web.total_user_member,en,metafox/chat,"{ value, plural, =1{# member} other{# members} }","{ value, plural, =1{# member} other{# members} }"
 chat::web.translate,en,metafox/chat,Translate,Fordítás
@@ -6344,86 +6344,86 @@ mail::smtp.host_label,en,metafox/mail,SMTP Host,SMTP Host
 mail::smtp.password_label,en,metafox/mail,SMTP Password,SMTP Password
 mail::smtp.port_label,en,metafox/mail,SMTP Port,SMTP Port
 mail::smtp.username_label,en,metafox/mail,SMTP Username,SMTP Username
-marketplace::notification.expired_listing_message,en,metafox/marketplace,"Your listing <b>""{title}""</b> will expire in today.","Your listing <b>""{title}""</b> will expire in today."
-marketplace::notification.expired_listing_message_in_day,en,metafox/marketplace,"Your listing <b>""{title}""</b> will expire in {days}.","Your listing <b>""{title}""</b> will expire in {days}."
+marketplace::notification.expired_listing_message,en,metafox/marketplace,"Your listing <b>""{title}""</b> will expire in today.","A hirdetésed ""<b>""{title}""</b>"" ma lejár."
+marketplace::notification.expired_listing_message_in_day,en,metafox/marketplace,"Your listing <b>""{title}""</b> will expire in {days}.","A hirdetésed ""<b>""{title}""</b>"" le fog járni {days} nap múlva."
 marketplace::permission.can_approve_marketplace_desc,en,metafox/marketplace,,
-marketplace::permission.can_approve_marketplace_label,en,metafox/marketplace,Can approve listings?,Can approve listings?
+marketplace::permission.can_approve_marketplace_label,en,metafox/marketplace,Can approve listings?,Jóvá hagyod a hirdetést?
 marketplace::permission.can_auto_approved_marketplace_desc,en,metafox/marketplace,,
-marketplace::permission.can_auto_approved_marketplace_label,en,metafox/marketplace,Automatically approve listings of users having this role?,Automatically approve listings of users having this role?
+marketplace::permission.can_auto_approved_marketplace_label,en,metafox/marketplace,Automatically approve listings of users having this role?,Automatikusan jóváhagyhatja a felhasználók hirdetéseit ezzel a szerepkörrel?
 marketplace::permission.can_auto_publish_sponsored_item_marketplace_desc,en,metafox/marketplace,,
-marketplace::permission.can_auto_publish_sponsored_item_marketplace_label,en,metafox/marketplace,Auto publish sponsored item?,Auto publish sponsored item?
+marketplace::permission.can_auto_publish_sponsored_item_marketplace_label,en,metafox/marketplace,Auto publish sponsored item?,Automatikusan közzéteszi a támogatott elemet?
 marketplace::permission.can_comment_marketplace_desc,en,metafox/marketplace,,
-marketplace::permission.can_comment_marketplace_label,en,metafox/marketplace,Can comment on listings?,Can comment on listings?
+marketplace::permission.can_comment_marketplace_label,en,metafox/marketplace,Can comment on listings?,Kommentelhetik a hírdetést?
 marketplace::permission.can_create_marketplace_desc,en,metafox/marketplace,,
-marketplace::permission.can_create_marketplace_label,en,metafox/marketplace,Can create listings?,Can create listings?
+marketplace::permission.can_create_marketplace_label,en,metafox/marketplace,Can create listings?,Készíthetnek hírdetést?
 marketplace::permission.can_delete_marketplace_desc,en,metafox/marketplace,,
-marketplace::permission.can_delete_marketplace_label,en,metafox/marketplace,Can delete own listings?,Can delete own listings?
+marketplace::permission.can_delete_marketplace_label,en,metafox/marketplace,Can delete own listings?,Törölhetik saját hírtetéseiket?
 marketplace::permission.can_enable_activity_point_payment_marketplace_desc,en,metafox/marketplace,,
-marketplace::permission.can_enable_activity_point_payment_marketplace_label,en,metafox/marketplace,Can members of this role enable/disable Activity Point payment on the marketplace?,Can members of this role enable/disable Activity Point payment on the marketplace?
+marketplace::permission.can_enable_activity_point_payment_marketplace_label,en,metafox/marketplace,Can members of this role enable/disable Activity Point payment on the marketplace?,Képesek-e ennek a szerepkörnek a tagjai engedélyezni/tiltani az Aktivitási Pont fizetést a piactéren?
 marketplace::permission.can_feature_marketplace_desc,en,metafox/marketplace,,
-marketplace::permission.can_feature_marketplace_label,en,metafox/marketplace,Can feature listings?,Can feature listings?
-marketplace::permission.can_flood_control_marketplace_desc,en,metafox/marketplace,"Setting it to ""0"" (without quotes) is default and users will not have to wait.","Setting it to ""0"" (without quotes) is default and users will not have to wait."
-marketplace::permission.can_flood_control_marketplace_label,en,metafox/marketplace,How many minutes this role should wait before they can post a new listing,How many minutes this role should wait before they can post a new listing
+marketplace::permission.can_feature_marketplace_label,en,metafox/marketplace,Can feature listings?,Ki tudja emelni a hírdetést?
+marketplace::permission.can_flood_control_marketplace_desc,en,metafox/marketplace,"Setting it to ""0"" (without quotes) is default and users will not have to wait.","Az ""0"" (idézőjelek nélkül) beállítása az alapértelmezett, és a felhasználóknak nem kell várniuk."
+marketplace::permission.can_flood_control_marketplace_label,en,metafox/marketplace,How many minutes this role should wait before they can post a new listing,"Mennyi percet kell várnia ennek a szerepkörnek, mielőtt új hirdetést tesz közzé?"
 marketplace::permission.can_like_marketplace_desc,en,metafox/marketplace,,
-marketplace::permission.can_like_marketplace_label,en,metafox/marketplace,Can like listings?,Can like listings?
-marketplace::permission.can_maximum_number_of_attached_photos_per_upload_marketplace_desc,en,metafox/marketplace,Define the maximum number of attached photos a role can upload in total. 0 means unlimited.,Define the maximum number of attached photos a role can upload in total. 0 means unlimited.
-marketplace::permission.can_maximum_number_of_attached_photos_per_upload_marketplace_label,en,metafox/marketplace,How many photos a user can upload to a marketplace listing?,How many photos a user can upload to a marketplace listing?
+marketplace::permission.can_like_marketplace_label,en,metafox/marketplace,Can like listings?,Kedvelheti a hiretéseket?
+marketplace::permission.can_maximum_number_of_attached_photos_per_upload_marketplace_desc,en,metafox/marketplace,Define the maximum number of attached photos a role can upload in total. 0 means unlimited.,"Meghatározhatja a maximális összes csatolt fényképet, amit egy szerepkör összesen feltölthet. 0 azt jelenti, hogy korlátlan."
+marketplace::permission.can_maximum_number_of_attached_photos_per_upload_marketplace_label,en,metafox/marketplace,How many photos a user can upload to a marketplace listing?,Hány fényképet tölthet fel egy felhasználó egy hirdetéshez?
 marketplace::permission.can_moderate_marketplace_desc,en,metafox/marketplace,,
-marketplace::permission.can_moderate_marketplace_label,en,metafox/marketplace,Can moderate listings?,Can moderate listings?
+marketplace::permission.can_moderate_marketplace_label,en,metafox/marketplace,Can moderate listings?,Moderálhatja a hírdetéseket?
 marketplace::permission.can_publish_marketplace_desc,en,metafox/marketplace,,
-marketplace::permission.can_publish_marketplace_label,en,metafox/marketplace,Can publish listings?,Can publish listings?
-marketplace::permission.can_quota_control_marketplace_desc,en,metafox/marketplace,Define the total number of listings a user within this user role can create. Notice: Setting this value to 0 will allow them to create an unlimited amount of listings.,Define the total number of listings a user within this user role can create. Notice: Setting this value to 0 will allow them to create an unlimited amount of listings.
-marketplace::permission.can_quota_control_marketplace_label,en,metafox/marketplace,Maximum number of listings,Maximum number of listings
+marketplace::permission.can_publish_marketplace_label,en,metafox/marketplace,Can publish listings?,Közzé teheti a hírdetéseket?
+marketplace::permission.can_quota_control_marketplace_desc,en,metafox/marketplace,Define the total number of listings a user within this user role can create. Notice: Setting this value to 0 will allow them to create an unlimited amount of listings.,"Meghatározhatja, hogy egy felhasználó ebben a felhasználói szerepkörben összesen hány hirdetést készíthet. Figyelem: Ha ezt az értéket 0-ra állítja, akkor lehetőségük van korlátlan mennyiségű hirdetést létrehozni."
+marketplace::permission.can_quota_control_marketplace_label,en,metafox/marketplace,Maximum number of listings,Legfeljebb hány hirdetést lehet létrehozni
 marketplace::permission.can_reopen_expired_marketplace_desc,en,metafox/marketplace,,
-marketplace::permission.can_reopen_expired_marketplace_label,en,metafox/marketplace,Can members of this role reopen all expired listings?,Can members of this role reopen all expired listings?
+marketplace::permission.can_reopen_expired_marketplace_label,en,metafox/marketplace,Can members of this role reopen all expired listings?,Képesek-e ennek a szerepkörnek a tagjai újra megnyitni az összes lejárt hirdetést?
 marketplace::permission.can_reopen_own_expired_marketplace_desc,en,metafox/marketplace,,
-marketplace::permission.can_reopen_own_expired_marketplace_label,en,metafox/marketplace,Can members of this role reopen own expired listing?,Can members of this role reopen own expired listing?
+marketplace::permission.can_reopen_own_expired_marketplace_label,en,metafox/marketplace,Can members of this role reopen own expired listing?,Képesek-e ennek a szerepkörnek a tagjai újra megnyitni a saját lejárt hirdetésüket?
 marketplace::permission.can_report_marketplace_desc,en,metafox/marketplace,,
-marketplace::permission.can_report_marketplace_label,en,metafox/marketplace,Can report listings?,Can report listings?
+marketplace::permission.can_report_marketplace_label,en,metafox/marketplace,Can report listings?,Jelentheti a hirdetéseket?
 marketplace::permission.can_save_marketplace_desc,en,metafox/marketplace,,
-marketplace::permission.can_save_marketplace_label,en,metafox/marketplace,Can save listings?,Can save listings?
+marketplace::permission.can_save_marketplace_label,en,metafox/marketplace,Can save listings?,Mentheti listába a hirdetéseket?
 marketplace::permission.can_sell_items_marketplace_desc,en,metafox/marketplace,,
-marketplace::permission.can_sell_items_marketplace_label,en,metafox/marketplace,Can members of this role sell items on the marketplace?,Can members of this role sell items on the marketplace?
+marketplace::permission.can_sell_items_marketplace_label,en,metafox/marketplace,Can members of this role sell items on the marketplace?,Képesek-e ennek a szerepkörnek a tagjai termékeket eladni a piactéren?
 marketplace::permission.can_share_marketplace_desc,en,metafox/marketplace,,
-marketplace::permission.can_share_marketplace_label,en,metafox/marketplace,Can share listings?,Can share listings?
+marketplace::permission.can_share_marketplace_label,en,metafox/marketplace,Can share listings?,Megoszthatja a hirdetést?
 marketplace::permission.can_sponsor_free_marketplace_desc,en,metafox/marketplace,,
-marketplace::permission.can_sponsor_free_marketplace_label,en,metafox/marketplace,Can sponsor listings without paying sponsor fee?,Can sponsor listings without paying sponsor fee?
+marketplace::permission.can_sponsor_free_marketplace_label,en,metafox/marketplace,Can sponsor listings without paying sponsor fee?,"Sponzorálhat hirdetést anélkül, hogy fizetne a szponzorálási díjat?"
 marketplace::permission.can_sponsor_in_feed_marketplace_desc,en,metafox/marketplace,,
-marketplace::permission.can_sponsor_in_feed_marketplace_label,en,metafox/marketplace,Can sponsor listings in feed?,Can sponsor listings in feed?
+marketplace::permission.can_sponsor_in_feed_marketplace_label,en,metafox/marketplace,Can sponsor listings in feed?,Sponzorálhat hirdetést a hírfolyamban?
 marketplace::permission.can_sponsor_marketplace_desc,en,metafox/marketplace,,
-marketplace::permission.can_sponsor_marketplace_label,en,metafox/marketplace,Can sponsor listings?,Can sponsor listings?
+marketplace::permission.can_sponsor_marketplace_label,en,metafox/marketplace,Can sponsor listings?,Sponzorálhat hirdetést?
 marketplace::permission.can_update_marketplace_desc,en,metafox/marketplace,,
-marketplace::permission.can_update_marketplace_label,en,metafox/marketplace,Can edit own listings?,Can edit own listings?
+marketplace::permission.can_update_marketplace_label,en,metafox/marketplace,Can edit own listings?,Szerkesztheti a saját hirdetését?
 marketplace::permission.can_view_expired_marketplace_desc,en,metafox/marketplace,,
-marketplace::permission.can_view_expired_marketplace_label,en,metafox/marketplace,"Can members of this role view the section ""Expired"" in the marketplace?","Can members of this role view the section ""Expired"" in the marketplace?"
+marketplace::permission.can_view_expired_marketplace_label,en,metafox/marketplace,"Can members of this role view the section ""Expired"" in the marketplace?","Képesek-e ennek a szerepkörnek a tagjai megtekinteni a ""Lejárt"" szakaszt a piactéren?"
 marketplace::permission.can_view_marketplace_desc,en,metafox/marketplace,,
-marketplace::permission.can_view_marketplace_label,en,metafox/marketplace,Can browse and view listings?,Can browse and view listings?
-marketplace::phrase.added_a_listing_in_marketplace,en,metafox/marketplace,added a listing in marketplace,added a listing in marketplace
-marketplace::phrase.add_listing,en,metafox/marketplace,Add Listing,Add Listing
-marketplace::phrase.add_new_listing,en,metafox/marketplace,Add New Listing,Add New Listing
-marketplace::phrase.ad_mob_marketplace_detail_page,en,metafox/marketplace,Marketplace > Marketplace - Detail Page,Marketplace > Marketplace - Detail Page
-marketplace::phrase.ad_mob_marketplace_home_page,en,metafox/marketplace,Marketplace > Marketplace - Home Page,Marketplace > Marketplace - Home Page
-marketplace::phrase.all_listings,en,metafox/marketplace,All Listings,All Listings
-marketplace::phrase.amount_you_want_to_sell,en,metafox/marketplace,Specify amount you want to sell this listing.,Specify amount you want to sell this listing.
-marketplace::phrase.app_name,en,metafox/marketplace,Marketplace,Marketplace
-marketplace::phrase.approve,en,metafox/marketplace,Approve,Approve
-marketplace::phrase.attached_photos,en,metafox/marketplace,Attached Photos,Attached Photos
-marketplace::phrase.attached_photos_is_a_required_field,en,metafox/marketplace,Attached Photos is a required field.,Attached Photos is a required field.
+marketplace::permission.can_view_marketplace_label,en,metafox/marketplace,Can browse and view listings?,Képesek-e böngészni és megtekinteni a hirdetéseket?
+marketplace::phrase.added_a_listing_in_marketplace,en,metafox/marketplace,added a listing in marketplace,hirdetést adott hozzá a piactérhez
+marketplace::phrase.add_listing,en,metafox/marketplace,Add Listing,Hirdetést hozzáadása
+marketplace::phrase.add_new_listing,en,metafox/marketplace,Add New Listing,Új hirdetést hozzáadása
+marketplace::phrase.ad_mob_marketplace_detail_page,en,metafox/marketplace,Marketplace > Marketplace - Detail Page,Piactér > Piactér - Részletes oldal
+marketplace::phrase.ad_mob_marketplace_home_page,en,metafox/marketplace,Marketplace > Marketplace - Home Page,Piactér > Piactér - Kezdő oldal
+marketplace::phrase.all_listings,en,metafox/marketplace,All Listings,Összes hirdetést
+marketplace::phrase.amount_you_want_to_sell,en,metafox/marketplace,Specify amount you want to sell this listing.,"Adja meg az összeget, amennyiért hirdeti a terméket"
+marketplace::phrase.app_name,en,metafox/marketplace,Marketplace,Piactér
+marketplace::phrase.approve,en,metafox/marketplace,Approve,Jóváhagyás
+marketplace::phrase.attached_photos,en,metafox/marketplace,Attached Photos,Csatolt fényképek
+marketplace::phrase.attached_photos_is_a_required_field,en,metafox/marketplace,Attached Photos is a required field.,A csatolt fényképek kötelező mező!
 marketplace::phrase.auto_sold,en,metafox/marketplace,Auto-Sold,Auto-Sold
-marketplace::phrase.auto_sold_description,en,metafox/marketplace,"If this is enabled and once a successful purchase of this item is made it will automatically close this item and mark it as ""Sold"".","If this is enabled and once a successful purchase of this item is made it will automatically close this item and mark it as ""Sold""."
-marketplace::phrase.bought_invoices,en,metafox/marketplace,Bought Invoices,Bought Invoices
-marketplace::phrase.browse_listings_you_like_to_buy,en,metafox/marketplace,Browse listings you like to buy.,Browse listings you like to buy.
-marketplace::phrase.buy_now,en,metafox/marketplace,Buy Now,Buy Now
-marketplace::phrase.can_not_change_the_invoice,en,metafox/marketplace,Cannot change the invoice.,Cannot change the invoice.
-marketplace::phrase.can_not_create_order_for_listing_purchasement,en,metafox/marketplace,Can not create an order for listing purchasement.,Can not create an order for listing purchasement.
-marketplace::phrase.captcha_on_create_marketplace,en,metafox/marketplace,Enable CAPTCHA challenge when adding a new marketplace,Enable CAPTCHA challenge when adding a new marketplace
-marketplace::phrase.category,en,metafox/marketplace,Category,Category
-marketplace::phrase.category_is_a_required_field,en,metafox/marketplace,Category is a required field.,Category is a required field.
-marketplace::phrase.change_invoice,en,metafox/marketplace,Change Invoice,Change Invoice
-marketplace::phrase.change_invoice_description,en,metafox/marketplace,The listing price has been changed. Do you want to continue paying?,The listing price has been changed. Do you want to continue paying?
-marketplace::phrase.closed_item_sold,en,metafox/marketplace,Closed (item Sold),Closed (item Sold)
+marketplace::phrase.auto_sold_description,en,metafox/marketplace,"If this is enabled and once a successful purchase of this item is made it will automatically close this item and mark it as ""Sold"".","Ha ez engedélyezve van, és egyszer sikeresen megvásárolták ezt az elemet, automatikusan lezárja ezt az elemet, és ""Eladva"" státuszba helyezi."
+marketplace::phrase.bought_invoices,en,metafox/marketplace,Bought Invoices,Vásárolt számlák
+marketplace::phrase.browse_listings_you_like_to_buy,en,metafox/marketplace,Browse listings you like to buy.,"Böngéssze azokat a hirdetéseket, amelyeket meg szeretne vásárolni."
+marketplace::phrase.buy_now,en,metafox/marketplace,Buy Now,Vásárold meg most
+marketplace::phrase.can_not_change_the_invoice,en,metafox/marketplace,Cannot change the invoice.,Nem változtathatja meg a számlát.
+marketplace::phrase.can_not_create_order_for_listing_purchasement,en,metafox/marketplace,Can not create an order for listing purchasement.,Nem lehet rendelést létrehozni a listázási vásárlásra.
+marketplace::phrase.captcha_on_create_marketplace,en,metafox/marketplace,Enable CAPTCHA challenge when adding a new marketplace,"Engedélyezze a CAPTCHA kihívást, amikor új piactér hozzáadására kerül sor"
+marketplace::phrase.category,en,metafox/marketplace,Category,Kategória
+marketplace::phrase.category_is_a_required_field,en,metafox/marketplace,Category is a required field.,Kategória mező kötelező
+marketplace::phrase.change_invoice,en,metafox/marketplace,Change Invoice,Számla módosítása
+marketplace::phrase.change_invoice_description,en,metafox/marketplace,The listing price has been changed. Do you want to continue paying?,A hirdetés árat módosították. Folytatja?
+marketplace::phrase.closed_item_sold,en,metafox/marketplace,Closed (item Sold),Lezárva (eladva)
 marketplace::phrase.control_who_can_see_this_listing,en,metafox/marketplace,Control who can see this listing.,Control who can see this listing.
-marketplace::phrase.create_listing,en,metafox/marketplace,Create Listing,Create Listing
+marketplace::phrase.create_listing,en,metafox/marketplace,Create Listing,Hirdetés létrehozása
 marketplace::phrase.days_to_expire_desc,en,metafox/marketplace,If you want marketplace listings to expire you can enter the number of days here. If you enter 0 days listings will not expire.,If you want marketplace listings to expire you can enter the number of days here. If you enter 0 days listings will not expire.
 marketplace::phrase.days_to_expire_label,en,metafox/marketplace,Days to Expire,Days to Expire
 marketplace::phrase.days_to_notify_before_expire_desc,en,metafox/marketplace,"When you allow listings to expire you can also set a notification to be sent automatically to the owner of the listing, you can define here how many days in advanced to notify them. If you set this to 0 no email will be sent to the owner.","When you allow listings to expire you can also set a notification to be sent automatically to the owner of the listing, you can define here how many days in advanced to notify them. If you set this to 0 no email will be sent to the owner."
